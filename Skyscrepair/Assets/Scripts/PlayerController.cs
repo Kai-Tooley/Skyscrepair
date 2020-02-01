@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move(m_Move);
+        Look(m_Look);
     }
 
 
@@ -49,22 +50,22 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //private void Look(Vector2 rotate)
-    //{
-    //    if (rotate.sqrMagnitude < 0.01)
-    //    {
-    //        return;
-    //    }
-    //    float scaledRotateSpeed = rotateSpeed * Time.deltaTime;
-    //    if (rotate.x > 0.1f)
-    //    {
-    //        transform.Rotate(Vector3.up, 1 * scaledRotateSpeed);
-    //    }
-    //    else if (rotate.x < 0.1f)
-    //    {
-    //        transform.Rotate(Vector3.up, -1 * scaledRotateSpeed);
-    //    }
-    //}
+    private void Look(Vector2 rotate)
+    {
+        if (rotate.sqrMagnitude < 0.01)
+        {
+            return;
+        }
+        float scaledRotateSpeed = rotateSpeed * Time.deltaTime;
+        if (rotate.x > 0.1f)
+        {
+            transform.Rotate(Vector3.back, 1 * scaledRotateSpeed);
+        }
+        else if (rotate.x < 0.1f)
+        {
+            transform.Rotate(Vector3.forward, 1 * scaledRotateSpeed);
+        }
+    }
 
     public void OnMove(InputAction.CallbackContext context)
     {
