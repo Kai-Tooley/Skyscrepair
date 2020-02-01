@@ -72,7 +72,7 @@ public class objectRepair : MonoBehaviour
     void positionPart(GameObject parent)
     {
         gameObject.transform.parent = parent.transform;
-        gameObject.tag = null;
+        gameObject.tag = "Untagged";
         if(gameObject.GetComponent<Rigidbody2D>())
             Destroy(gameObject.GetComponent<Rigidbody2D>());
         gameObject.transform.localPosition = pos;
