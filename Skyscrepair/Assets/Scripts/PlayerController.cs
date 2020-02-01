@@ -14,16 +14,18 @@ public class PlayerController : MonoBehaviour
     float moveSpeed = 10f;
     float rotateSpeed = 60f;
 
+    PlayerInput input;
+
     private void Awake()
     {
-
+        input = GetComponent<PlayerInput>();
+        //input.actions = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>().inputActions;
     }
 
 
 
     void Update()
     {
-        //Look(m_Look);
         Move(m_Move);
     }
 
