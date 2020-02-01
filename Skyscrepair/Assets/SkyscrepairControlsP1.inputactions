@@ -273,7 +273,7 @@
                 {
                     "name": "",
                     "id": "af14de49-b67a-4512-bdf4-4d4a5f856b50",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Keyboard>/enter",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

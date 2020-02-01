@@ -394,6 +394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c441b8518cde80469b47c3f0db498c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputSet: {fileID: -944628639613478452, guid: c0e364d707b9480438926e7faa95b66c,
+    type: 3}
   m_Look: {x: 0, y: 0}
   m_Move: {x: 0, y: 0}
 --- !u!114 &-2356451110452198917
@@ -411,5 +413,8 @@ MonoBehaviour:
   holdingPoint: {fileID: 0}
   arm: {fileID: 0}
   maxDist: 100
+  holdingItem: 0
+  heldItem: {fileID: 0}
   armSpeed: 3
+  nearest: 0
   snapToArm: 1

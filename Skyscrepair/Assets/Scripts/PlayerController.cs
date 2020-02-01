@@ -6,8 +6,8 @@ using UnityEngine.InputSystem.Interactions;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
-{ 
-
+{
+    public InputActionAsset inputSet;
     public Vector2 m_Look;
     public Vector2 m_Move;
 
@@ -19,6 +19,10 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         input = GetComponent<PlayerInput>();
+        if (input.actions != inputSet)
+        {
+            input.actions = inputSet;
+        }
     }
 
 
@@ -43,12 +47,10 @@ public class PlayerController : MonoBehaviour
         if (direction.x > 0.1f)
         {
             playerPos.x += (Vector2.right * scaledMoveSpeed).magnitude;
-            //transform.Translate(Vector2.right * scaledMoveSpeed);
         }
         else if (direction.x < 0.1f)
         {
             playerPos.x -= (Vector2.right * scaledMoveSpeed).magnitude;
-            //transform.Translate(Vector2.left * scaledMoveSpeed);
         }
         transform.position = playerPos;
 
