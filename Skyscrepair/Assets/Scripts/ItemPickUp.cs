@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class ItemPickUp : MonoBehaviour
 {
+    public Animator animator;
     private ItemEffects effects;
     //point at which to hold the item
     private GameObject player;
@@ -50,6 +51,14 @@ public class ItemPickUp : MonoBehaviour
         {
             ItemButtonAction();
         }
+        if (Mathf.Abs(Input.GetAxis("Horizontal"))>0.1f)
+        {
+            animator.SetBool("walking", true);
+        }
+        else
+        {
+            animator.SetBool("walking", false);
+        }
 
         //just outputs distance to closest item if you want
         //nearest = Mathf.Infinity;
@@ -87,6 +96,7 @@ public class ItemPickUp : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
+        animator.SetFloat("dropping", 1f);
     }
 
     void PickUp()
@@ -137,6 +147,9 @@ public class ItemPickUp : MonoBehaviour
             StopCoroutine(armMovement);
         }
         armMovement = StartCoroutine(LerpArm());
+
+
+        animator.SetBool("holding", true);
     }
 
     void Drop()
@@ -145,12 +158,14 @@ public class ItemPickUp : MonoBehaviour
         {
             StartCoroutine(DropItemTransition());
         }
+        animator.SetBool("holding", false);
     }
 
     IEnumerator DropItemTransition()
     {
         //use this bool to stop the player trying to 'double drop'
         droppingItem = true;
+        animator.SetFloat("dropping", -1f);
 
         //start arm movement
         targetArmPosition = armDefaultPosition;
@@ -177,6 +192,8 @@ public class ItemPickUp : MonoBehaviour
 
         holdingItem = false;
         heldItem = null;
+
+       
     }
 
     public void OnGrab(InputAction.CallbackContext context)
