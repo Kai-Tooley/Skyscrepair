@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CameraScroll : MonoBehaviour
 {
+    public GameObject endGame;
     public GameObject deathEffect;
     public GameObject emoji;
     public float moveSpeed;
@@ -20,12 +21,24 @@ public class CameraScroll : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //set height of camera
+        float yPosition = PlayerPrefs.GetFloat("yCameraPosition", 0);
+
+
         effects = GameObject.Find("Main Camera").GetComponent<ItemEffects>();
         cam = gameObject;
+
+        cam.transform.position = new Vector3(cam.transform.position.x, yPosition, cam.transform.position.z);
+
         player = GameObject.Find("Player");
         camHeight = Camera.main.orthographicSize;
         screenBottomY = cam.transform.position.y - camHeight;
         Debug.Log(screenBottomY);
+    }
+
+    public void UpdateHeight()
+    {
+        PlayerPrefs.SetFloat("yCameraPosition", cam.transform.position.y);
     }
 
     // Update is called once per frame
@@ -72,6 +85,7 @@ public class CameraScroll : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         if(emoji!=null)effects.ChangeColor(emoji, new Color(255, 255, 255, 1), 1);
+        endGame.SetActive(true);
         while (Time.time - startTime < 6f)
         {
             CameraShake(cameraShakeOnDeath);

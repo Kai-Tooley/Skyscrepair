@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 m_Look;
     public Vector2 m_Move;
 
-    float moveSpeed = 10f;
+    float moveSpeed = 5f;
     float rotateSpeed = 60f;
 
     PlayerInput input;
@@ -47,30 +47,33 @@ public class PlayerController : MonoBehaviour
         if (direction.x > 0.1f)
         {
             playerPos.x += (Vector2.right * scaledMoveSpeed).magnitude;
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
         else if (direction.x < 0.1f)
         {
             playerPos.x -= (Vector2.right * scaledMoveSpeed).magnitude;
+            transform.eulerAngles = new Vector3(0, 180, 0);
         }
         transform.position = playerPos;
-
     }
 
     private void Look(Vector2 rotate)
     {
-        if (rotate.sqrMagnitude < 0.01)
-        {
-            return;
-        }
-        float scaledRotateSpeed = rotateSpeed * Time.deltaTime;
-        if (rotate.x > 0.1f)
-        {
-            transform.Rotate(Vector3.back, 1 * scaledRotateSpeed);
-        }
-        else if (rotate.x < 0.1f)
-        {
-            transform.Rotate(Vector3.forward, 1 * scaledRotateSpeed);
-        }
+        //if (rotate.sqrMagnitude < 0.01)
+        //{
+        //    return;
+        //}
+        //float scaledRotateSpeed = rotateSpeed * Time.deltaTime;
+        //if (rotate.x > 0.1f)
+        //{
+        //    transform.Rotate(Vector3.back, 1 * scaledRotateSpeed);
+        //}
+        //else if (rotate.x < 0.1f)
+        //{
+        //    transform.Rotate(Vector3.forward, 1 * scaledRotateSpeed);
+        //}
+
+
     }
 
     public void OnMove(InputAction.CallbackContext context)
