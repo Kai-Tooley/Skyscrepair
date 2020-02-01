@@ -78,6 +78,7 @@ public class PlayerController : MonoBehaviour
         m_Move = context.ReadValue<Vector2>();
     }
 
+    //This isn't being used
     public void OnLook(InputAction.CallbackContext context)
     {
         m_Look = context.ReadValue<Vector2>();
