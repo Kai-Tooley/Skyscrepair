@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class ItemPickUp : MonoBehaviour
 {
-    public ItemEffects effects;
+    private ItemEffects effects;
     //point at which to hold the item
     private GameObject player;
     private GameObject holdingPoint;
@@ -35,7 +35,7 @@ public class ItemPickUp : MonoBehaviour
     void Start()
     {
         holdingItem = false;
-     
+        //effects = GameObject.Find("Effects").GetComponent<ItemEffects>();
         player = gameObject;
         arm = gameObject.transform.GetChild(0).gameObject;
         holdingPoint = arm.transform.GetChild(0).gameObject;

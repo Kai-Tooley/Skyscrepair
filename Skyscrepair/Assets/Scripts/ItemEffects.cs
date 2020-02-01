@@ -15,10 +15,6 @@ public class ItemEffects : MonoBehaviour
     {
 
     }
-    public void Check()
-    {
-        Debug.Log("Check");
-    }
     public void ChangeColor(GameObject obj, Color color, float colorChangeTime=0)
     {
         SpriteRenderer spr;
