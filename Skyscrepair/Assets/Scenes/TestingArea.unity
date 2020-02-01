@@ -494,7 +494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holdingPoint: {fileID: 1685548981}
   arm: {fileID: 60837722}
-  maxDist: 6
+  maxDist: 100
   armSpeed: 3
   snapToArm: 1
 --- !u!1 &1642356767
@@ -783,6 +783,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083325831657665828, guid: 6b43fc959ff43ab4b883d303da29d63b,
+        type: 3}
+      propertyPath: m_ControlsChangedEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083325831657665828, guid: 6b43fc959ff43ab4b883d303da29d63b,
+        type: 3}
+      propertyPath: m_ControlsChangedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083325831657665828, guid: 6b43fc959ff43ab4b883d303da29d63b,
+        type: 3}
+      propertyPath: m_ControlsChangedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083325831657665828, guid: 6b43fc959ff43ab4b883d303da29d63b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b43fc959ff43ab4b883d303da29d63b, type: 3}

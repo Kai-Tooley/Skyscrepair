@@ -11,12 +11,10 @@ public class ItemPickUp : MonoBehaviour
     //maximum distance from an item you must be to pick it up
     public float maxDist = 1f;
 
+    //what if anything, is the player holding
     private bool holdingItem = false;
     private GameObject heldItem;
-
-    //time since item was dropped or picked up
-    private float timeSinceLastInteraction;
-    public float armSpeed;
+    
     //current position vs target position
     private Vector3 armPosition = new Vector3(0, 0, 0);
     private Vector3 targetArmPosition = new Vector3(0, 0, 0);
@@ -24,7 +22,9 @@ public class ItemPickUp : MonoBehaviour
     //defaults for holding or not holding an item
     private Vector3 armDefaultPosition = new Vector3(0, 0, 0);
     private Vector3 armHoldingPosition = new Vector3(0, 0, 90);
+    public float armSpeed;
 
+    Coroutine armMovement;
     public bool snapToArm;
 
     void Start()
@@ -32,41 +32,41 @@ public class ItemPickUp : MonoBehaviour
         player = GameObject.Find("Player");   
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
-            if (holdingItem)
-            {
-                Drop();
-            }
-            else
-            {
-                PickUp();
-            }
-            
-        }
-        if(armPosition!= targetArmPosition)
-        {
-            LerpArm();
+            ItemButtonAction();
         }
     }
 
-    void LerpArm()
+    void ItemButtonAction()
     {
-        //rotates the arm to the holding position or the default position based on itemHeld;
-        arm.transform.eulerAngles = Vector3.Lerp(armPosition, targetArmPosition, (Time.time - timeSinceLastInteraction)*armSpeed);
-
-        //once the rotation is finished stop
-        if(arm.transform.localEulerAngles == targetArmPosition)
+        if (holdingItem)
         {
-            armPosition = targetArmPosition;
+            Drop();
         }
+        else
+        {
+            PickUp();
+        }
+    }
+
+    IEnumerator LerpArm()
+    {
+        float startTime = Time.time;
+        Vector3 startPosition = arm.transform.eulerAngles;
+        while(arm.transform.eulerAngles != targetArmPosition)
+        {
+            arm.transform.eulerAngles = Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed);
+            yield return new WaitForEndOfFrame();
+        }
+        Debug.Log("End of lerparm");
     }
 
     void PickUp()
     {
+        Debug.Log("Attempting to pick up item");
         GameObject closestItem = null;
         float minDist = Mathf.Infinity;
 
@@ -88,6 +88,10 @@ public class ItemPickUp : MonoBehaviour
         {
             PickUpItem(closestItem);
         }
+        else
+        {
+            Debug.Log("Closest item was " + minDist);
+        }
     }
 
     void PickUpItem(GameObject item)
@@ -106,7 +110,12 @@ public class ItemPickUp : MonoBehaviour
 
         //move the arm
         targetArmPosition = armHoldingPosition;
-        timeSinceLastInteraction = Time.time;
+        if (armMovement != null)
+        {
+            StopCoroutine(armMovement);
+        }
+        armMovement = StartCoroutine(LerpArm());
+        
 
     }
 
@@ -117,8 +126,12 @@ public class ItemPickUp : MonoBehaviour
         heldItem.GetComponent<Rigidbody2D>().simulated = true;
 
         targetArmPosition = armDefaultPosition;
-        timeSinceLastInteraction = Time.time;
-  
+        if (armMovement != null)
+        {
+            StopCoroutine(armMovement);
+        }
+        armMovement = StartCoroutine(LerpArm());
+
         holdingItem = false;
         heldItem = null;
     }
