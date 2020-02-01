@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: 9cee02f6bddfff0438568f83753204b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2904630870380052005
+    second: Fat Carrying Idle_Sprite Sheet_2_0
+  - first:
+      213: 208129200592466207
+    second: Fat Carrying Idle_Sprite Sheet_2_1
+  - first:
+      213: -8416442613470560003
+    second: Fat Carrying Idle_Sprite Sheet_2_2
+  - first:
+      213: -7770075676481287574
+    second: Fat Carrying Idle_Sprite Sheet_2_3
+  - first:
+      213: -8649984969042491955
+    second: Fat Carrying Idle_Sprite Sheet_2_4
+  - first:
+      213: -555660209294582776
+    second: Fat Carrying Idle_Sprite Sheet_2_5
+  - first:
+      213: 7429996352354223094
+    second: Fat Carrying Idle_Sprite Sheet_2_6
+  - first:
+      213: 731850971943641808
+    second: Fat Carrying Idle_Sprite Sheet_2_7
+  - first:
+      213: 247352300885554400
+    second: Fat Carrying Idle_Sprite Sheet_2_8
+  - first:
+      213: -3814225745321556626
+    second: Fat Carrying Idle_Sprite Sheet_2_9
+  - first:
+      213: 331423928800590210
+    second: Fat Carrying Idle_Sprite Sheet_2_10
+  - first:
+      213: -2941410649979989466
+    second: Fat Carrying Idle_Sprite Sheet_2_11
+  - first:
+      213: -1791750331122354157
+    second: Fat Carrying Idle_Sprite Sheet_2_12
+  - first:
+      213: -2133598331587134862
+    second: Fat Carrying Idle_Sprite Sheet_2_13
+  - first:
+      213: -2329678033087185232
+    second: Fat Carrying Idle_Sprite Sheet_2_14
+  - first:
+      213: 7676639964764862766
+    second: Fat Carrying Idle_Sprite Sheet_2_15
+  - first:
+      213: 4377103166350847582
+    second: Fat Carrying Idle_Sprite Sheet_2_16
+  - first:
+      213: -8731300179055966710
+    second: Fat Carrying Idle_Sprite Sheet_2_17
+  - first:
+      213: 3482926364305064790
+    second: Fat Carrying Idle_Sprite Sheet_2_18
+  - first:
+      213: 268482681027424322
+    second: Fat Carrying Idle_Sprite Sheet_2_19
+  - first:
+      213: -4944067917377358
+    second: Fat Carrying Idle_Sprite Sheet_2_20
+  - first:
+      213: 1247625702555975721
+    second: Fat Carrying Idle_Sprite Sheet_2_21
+  - first:
+      213: -5201254148290432641
+    second: Fat Carrying Idle_Sprite Sheet_2_22
+  - first:
+      213: 634041014320479058
+    second: Fat Carrying Idle_Sprite Sheet_2_23
+  - first:
+      213: 48082652359317831
+    second: Fat Carrying Idle_Sprite Sheet_2_24
+  - first:
+      213: -4056455532730290402
+    second: Fat Carrying Idle_Sprite Sheet_2_25
+  - first:
+      213: 8829259964807174554
+    second: Fat Carrying Idle_Sprite Sheet_2_26
+  - first:
+      213: 9123460894968371994
+    second: Fat Carrying Idle_Sprite Sheet_2_27
+  - first:
+      213: 6294309321182403628
+    second: Fat Carrying Idle_Sprite Sheet_2_28
+  - first:
+      213: -4412039364231891075
+    second: Fat Carrying Idle_Sprite Sheet_2_29
+  - first:
+      213: 3047331691864034732
+    second: Fat Carrying Idle_Sprite Sheet_2_30
+  - first:
+      213: 5978323913751757600
+    second: Fat Carrying Idle_Sprite Sheet_2_31
+  - first:
+      213: -125059670151286403
+    second: Fat Carrying Idle_Sprite Sheet_2_32
+  - first:
+      213: 7919982526882134627
+    second: Fat Carrying Idle_Sprite Sheet_2_33
+  - first:
+      213: 3393695480527046289
+    second: Fat Carrying Idle_Sprite Sheet_2_34
+  - first:
+      213: -2872242803497083867
+    second: Fat Carrying Idle_Sprite Sheet_2_35
+  - first:
+      213: 9020355471150638772
+    second: Fat Carrying Idle_Sprite Sheet_2_36
+  - first:
+      213: -513630677388448985
+    second: Fat Carrying Idle_Sprite Sheet_2_37
+  - first:
+      213: 1579852495802886891
+    second: Fat Carrying Idle_Sprite Sheet_2_38
+  - first:
+      213: 6937884137606091026
+    second: Fat Carrying Idle_Sprite Sheet_2_39
+  - first:
+      213: 6043116733502102657
+    second: Fat Carrying Idle_Sprite Sheet_2_40
+  - first:
+      213: 3780424157854697499
+    second: Fat Carrying Idle_Sprite Sheet_2_41
+  - first:
+      213: 7136945351663996096
+    second: Fat Carrying Idle_Sprite Sheet_2_42
+  - first:
+      213: -7432635176735112298
+    second: Fat Carrying Idle_Sprite Sheet_2_43
+  - first:
+      213: 4551752432292038523
+    second: Fat Carrying Idle_Sprite Sheet_2_44
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc84f4f0e22a53f4696ced11e285c4c8
+      internalID: 2904630870380052005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b2b14641e3a9e45987793fa454e8d8
+      internalID: 208129200592466207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdee33b241c039f40835c862578856e8
+      internalID: -8416442613470560003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfcc777d407a8b439cab2c95799edcd
+      internalID: -7770075676481287574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_4
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ce67c1b4bdd454f856dfaef38f2150
+      internalID: -8649984969042491955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_5
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7610eb8d206794a86150b7e950a742
+      internalID: -555660209294582776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_6
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83502caeb13d7b4ca8af95744427d85
+      internalID: 7429996352354223094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_7
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d8da3808a727549a6c65f754d544df
+      internalID: 731850971943641808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec70a330abe9784e9cb40073e425281
+      internalID: 247352300885554400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49a10f4ad44d744ead82eab4fa6b595
+      internalID: -3814225745321556626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fae893bfbb4bd444aa13b9cc8e254a3
+      internalID: 331423928800590210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e0e433bdb47144e9f2a5e29920f03a
+      internalID: -2941410649979989466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_12
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ae29d57dc3a6e43b8220338abe2c18
+      internalID: -1791750331122354157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_13
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d447901525d758b4382be4821a33ced0
+      internalID: -2133598331587134862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_14
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd679a3bb03ef024d91f34de13deae65
+      internalID: -2329678033087185232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d52286dd83ddd442bc80b80793f2dca
+      internalID: 7676639964764862766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630c7ffe24210cf4381ead70f0239a83
+      internalID: 4377103166350847582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554e650c222a9f840abfeeec7ac641a4
+      internalID: -8731300179055966710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0b4c6eeb26241458eeee54048fec27
+      internalID: 3482926364305064790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5000d0eaf5e8f2a4dbc013b0de4fdb39
+      internalID: 268482681027424322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_20
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eee8f107c53b3b42bb4ca16830d197e
+      internalID: -4944067917377358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_21
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66cb11aac4f5a0499725bddde1c524c
+      internalID: 1247625702555975721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fed267bd3896e4e926dd1e78188d3b
+      internalID: -5201254148290432641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_23
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941345bdab916e14e926b044157026e6
+      internalID: 634041014320479058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfb4d12ddd545f42a1cc918fa8f493e
+      internalID: 48082652359317831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dcff8155680a24c9f8e0826da40751
+      internalID: -4056455532730290402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac42d09acec7bea44958f39e7edcf9c5
+      internalID: 8829259964807174554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617e4a89ecd0c3041b38edfaa19394be
+      internalID: 9123460894968371994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_28
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d48bef08570b6c4799b782cf5457ea3
+      internalID: 6294309321182403628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_29
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c5fd6415b2dac4bb9fe1de19df9379
+      internalID: -4412039364231891075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_30
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9e581bdb3a61f458c15e922ca60b8d
+      internalID: 3047331691864034732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_31
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0e5ac502431cc42929c818713cc9e2
+      internalID: 5978323913751757600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d81a764c3fb80429ce17c43deeb4b4
+      internalID: -125059670151286403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a34c198e5864543986f1f06b1d4975
+      internalID: 7919982526882134627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62530c3054948d24690490475b31964b
+      internalID: 3393695480527046289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_35
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3835a799f12551f4fa7e47481fbb9204
+      internalID: -2872242803497083867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_36
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03654dfc2daac754c82f835570460cef
+      internalID: 9020355471150638772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_37
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5075bcdad05fb6b45b0917f91eda44ef
+      internalID: -513630677388448985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_38
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98964d6c426be4b49ae5b197cb327d74
+      internalID: 1579852495802886891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_39
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1f284a223e0864eb73134758431847
+      internalID: 6937884137606091026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b9ec1fb35ad4b4d9c270913b743eb0
+      internalID: 6043116733502102657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62a4305c9fad7041bf3adbc83a78ae0
+      internalID: 3780424157854697499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_42
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e97b80f63e457459c1379c918f43f5
+      internalID: 7136945351663996096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_43
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54f930745c44b344a7bf4581bd196be
+      internalID: -7432635176735112298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Carrying Idle_Sprite Sheet_2_44
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e779133c06e99f49a50ca45fe8bafdb
+      internalID: 4551752432292038523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
