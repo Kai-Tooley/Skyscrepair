@@ -166,7 +166,7 @@
                     "path": "<Joystick>/stick",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Joystick",
+                    "groups": "Joystick;Gamepad",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -274,6 +274,17 @@
                     "name": "",
                     "id": "310adeac-3018-4902-851e-41c81e7be39f",
                     "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "71c51b6e-6058-4fe1-9d29-3f0ba458b1dd",
+                    "path": "<HID::USB gamepad           >/button3",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
