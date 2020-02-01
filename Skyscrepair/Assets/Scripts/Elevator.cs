@@ -14,6 +14,8 @@ public class Elevator : MonoBehaviour
 
     public List<bool> areItemsRepaired;
 
+    public Light elevatorLight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,8 @@ public class Elevator : MonoBehaviour
         {
             areItemsRepaired.Add(false);
         }
+        elevatorLight = GetComponentInChildren<Light>();
+        elevatorLight.color = Color.red;
     }
 
     // Update is called once per frame
@@ -40,6 +44,7 @@ public class Elevator : MonoBehaviour
             if (areItemsRepaired.Contains(!false))
             {
                 isActive = true;
+                elevatorLight.color = Color.green;
             }
         }
     }
