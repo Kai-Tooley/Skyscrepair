@@ -460,6 +460,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7083325831657665828, guid: 6b43fc959ff43ab4b883d303da29d63b,
+        type: 3}
+      propertyPath: m_NeverAutoSwitchControlSchemes
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b43fc959ff43ab4b883d303da29d63b, type: 3}
 --- !u!1 &1322674268
@@ -509,7 +514,10 @@ MonoBehaviour:
   holdingPoint: {fileID: 1685548981}
   arm: {fileID: 60837722}
   maxDist: 100
+  holdingItem: 0
+  heldItem: {fileID: 0}
   armSpeed: 3
+  nearest: 0
   snapToArm: 1
 --- !u!1 &1642356767
 GameObject:
@@ -793,6 +801,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076772997463046086, guid: b1e999bd1136e6249a0d03182c9f0069,
+        type: 3}
+      propertyPath: m_NeverAutoSwitchControlSchemes
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1e999bd1136e6249a0d03182c9f0069, type: 3}
