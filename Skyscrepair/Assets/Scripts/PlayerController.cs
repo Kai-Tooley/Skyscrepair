@@ -14,16 +14,17 @@ public class PlayerController : MonoBehaviour
     float moveSpeed = 10f;
     float rotateSpeed = 60f;
 
+    PlayerInput input;
+
     private void Awake()
     {
-
+        input = GetComponent<PlayerInput>();
     }
 
 
 
     void Update()
     {
-        //Look(m_Look);
         Move(m_Move);
     }
 
@@ -47,28 +48,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //private void Look(Vector2 rotate)
-    //{
-    //    if (rotate.sqrMagnitude < 0.01)
-    //    {
-    //        return;
-    //    }
-    //    float scaledRotateSpeed = rotateSpeed * Time.deltaTime;
-    //    if (rotate.x > 0.1f)
-    //    {
-    //        transform.Rotate(Vector3.up, 1 * scaledRotateSpeed);
-    //    }
-    //    else if (rotate.x < 0.1f)
-    //    {
-    //        transform.Rotate(Vector3.up, -1 * scaledRotateSpeed);
-    //    }
-    //}
-
     public void OnMove(InputAction.CallbackContext context)
     {
         m_Move = context.ReadValue<Vector2>();
     }
 
+    //This isn't being used
     public void OnLook(InputAction.CallbackContext context)
     {
         m_Look = context.ReadValue<Vector2>();
