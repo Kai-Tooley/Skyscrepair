@@ -14,7 +14,10 @@ public class Elevator : MonoBehaviour
 
     public List<bool> areItemsRepaired;
 
-    public Light elevatorLight;
+    public float camStep = 7f;
+
+    Light elevatorLight;
+    GameObject cameraMain;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +33,7 @@ public class Elevator : MonoBehaviour
         }
         elevatorLight = GetComponentInChildren<Light>();
         elevatorLight.color = Color.red;
+        cameraMain = GameObject.FindGameObjectWithTag("MainCamera");
     }
 
     // Update is called once per frame
@@ -59,6 +63,8 @@ public class Elevator : MonoBehaviour
             {
                 item.transform.position = elevatorExit.position;
             }
+
+            cameraMain.transform.Translate(Vector3.up * camStep);
         }
     }
 }
