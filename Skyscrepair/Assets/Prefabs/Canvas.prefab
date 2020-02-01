@@ -217,7 +217,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 31
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 6769299057311207792}
   - component: {fileID: 6769299057311207759}
   - component: {fileID: 6769299057311207793}
+  - component: {fileID: 925560435}
   m_Layer: 5
   m_Name: EXIT
   m_TagString: Untagged
@@ -345,7 +346,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 9119170181853308671}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -360,6 +361,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2065464584}
+        m_MethodName: EmittButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 6769299057920381013}
         m_MethodName: SetActive
         m_Mode: 6
@@ -373,6 +385,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &925560435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6769299057311207795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a462b8e00fe743848c2eef4946022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClickEvent: 
 --- !u!1 &6769299057535633759
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,7 +609,7 @@ GameObject:
   - component: {fileID: 6769299057564173057}
   - component: {fileID: 6769299057564173084}
   - component: {fileID: 6769299057564173086}
-  - component: {fileID: 9015625352992735516}
+  - component: {fileID: 976991213}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -674,16 +699,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2065464584}
+        m_MethodName: EmittButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!33 &9015625352992735516
-MeshFilter:
+--- !u!114 &976991213
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6769299057564173056}
-  m_Mesh: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a462b8e00fe743848c2eef4946022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClickEvent: 
 --- !u!1 &6769299057589722631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1318,7 @@ GameObject:
   - component: {fileID: 6769299058377190286}
   - component: {fileID: 6769299058377190285}
   - component: {fileID: 6769299058377190287}
+  - component: {fileID: 2004015048}
   m_Layer: 5
   m_Name: CREDITS
   m_TagString: Untagged
@@ -1366,6 +1408,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2065464584}
+        m_MethodName: EmittButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 6769299057693217324}
         m_MethodName: SetActive
         m_Mode: 6
@@ -1379,6 +1432,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &2004015048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6769299058377190321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a462b8e00fe743848c2eef4946022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClickEvent: 
 --- !u!1 &6769299058403620686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,6 +1456,7 @@ GameObject:
   - component: {fileID: 6769299058403620687}
   - component: {fileID: 6769299058403620682}
   - component: {fileID: 6769299058403620684}
+  - component: {fileID: 2065464584}
   m_Layer: 5
   m_Name: EXIT
   m_TagString: Untagged
@@ -1479,8 +1546,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2065464584}
+        m_MethodName: EmittButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &2065464584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6769299058403620686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a462b8e00fe743848c2eef4946022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClickEvent: 
 --- !u!1 &6769299058412986232
 GameObject:
   m_ObjectHideFlags: 0
