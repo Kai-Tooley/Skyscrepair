@@ -6,6 +6,9 @@ public class Elevator : MonoBehaviour
 {
     public bool isActive = false;
     public Transform elevatorExit;
+    public List<objectRepair> itemsToBeRepaired;
+
+    public List<bool> areItemsRepaired;
 
     // Start is called before the first frame update
     void Start()
@@ -13,10 +16,28 @@ public class Elevator : MonoBehaviour
         
     }
 
+    private void Awake()
+    {
+        foreach (objectRepair item in itemsToBeRepaired)
+        {
+            areItemsRepaired.Add(false);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
-        
+        foreach (objectRepair item in itemsToBeRepaired)
+        {
+            if (item.repaired)
+            {
+                areItemsRepaired[itemsToBeRepaired.IndexOf(item)] = true;
+            }
+            if (areItemsRepaired.Contains(!false))
+            {
+                isActive = true;
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
