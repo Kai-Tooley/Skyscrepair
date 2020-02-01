@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         input = GetComponent<PlayerInput>();
-        //input.actions = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>().inputActions;
     }
 
 
@@ -39,15 +38,20 @@ public class PlayerController : MonoBehaviour
         }
 
         float scaledMoveSpeed = moveSpeed * Time.deltaTime;
+        Vector3 playerPos = transform.position;
 
         if (direction.x > 0.1f)
         {
-            transform.Translate(Vector2.right * scaledMoveSpeed);
+            playerPos.x += (Vector2.right * scaledMoveSpeed).magnitude;
+            //transform.Translate(Vector2.right * scaledMoveSpeed);
         }
         else if (direction.x < 0.1f)
         {
-            transform.Translate(Vector2.left * scaledMoveSpeed);
+            playerPos.x -= (Vector2.right * scaledMoveSpeed).magnitude;
+            //transform.Translate(Vector2.left * scaledMoveSpeed);
         }
+        transform.position = playerPos;
+
     }
 
     private void Look(Vector2 rotate)
@@ -76,4 +80,6 @@ public class PlayerController : MonoBehaviour
     {
         m_Look = context.ReadValue<Vector2>();
     }
+
+
 }
