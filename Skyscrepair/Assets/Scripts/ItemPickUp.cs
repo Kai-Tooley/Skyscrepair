@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ItemPickUp : MonoBehaviour
 {
-    public ItemEffects effects;
+    public Animator animator;
+    private ItemEffects effects;
     //point at which to hold the item
     private GameObject player;
     private GameObject holdingPoint;
@@ -23,7 +25,9 @@ public class ItemPickUp : MonoBehaviour
     //defaults for holding or not holding an item
     private Vector3 armDefaultPosition = new Vector3(0, 0, 0);
     private Vector3 armHoldingPosition = new Vector3(0, 0, 90);
+    private Vector3 armDroppingPosition = new Vector3(0, 0, 40);
     public float armSpeed;
+    private bool droppingItem = false;
 
     //debugging variable
     //public float nearest;
@@ -34,17 +38,26 @@ public class ItemPickUp : MonoBehaviour
     void Start()
     {
         holdingItem = false;
-     
+        //effects = GameObject.Find("Effects").GetComponent<ItemEffects>();
         player = gameObject;
         arm = gameObject.transform.GetChild(0).gameObject;
         holdingPoint = arm.transform.GetChild(0).gameObject;
+        arm.transform.localEulerAngles = armDefaultPosition;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             ItemButtonAction();
+        }
+        if (Mathf.Abs(Input.GetAxis("Horizontal"))>0.1f)
+        {
+            animator.SetBool("walking", true);
+        }
+        else
+        {
+            animator.SetBool("walking", false);
         }
 
         //just outputs distance to closest item if you want
@@ -73,12 +86,18 @@ public class ItemPickUp : MonoBehaviour
     IEnumerator LerpArm()
     {
         float startTime = Time.time;
-        Vector3 startPosition = arm.transform.eulerAngles;
-        while(arm.transform.eulerAngles != targetArmPosition)
+        Vector3 startPosition = arm.transform.localEulerAngles;
+        while(arm.transform.localEulerAngles != targetArmPosition)
         {
-            arm.transform.eulerAngles = Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed);
+            Debug.Log(Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed));
+            arm.transform.localEulerAngles = Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed);
+            if(arm.transform.localEulerAngles.z < armDroppingPosition.z)
+            {
+                droppingItem = false;
+            }
             yield return new WaitForEndOfFrame();
         }
+        animator.SetFloat("dropping", 1f);
     }
 
     void PickUp()
@@ -102,8 +121,16 @@ public class ItemPickUp : MonoBehaviour
         //if there was an item in range pick up the closest one, otherwise do nothing
         if (closestItem != null)
         {
-            PickUpItem(closestItem);
+            StartCoroutine(PickUpOverTime(closestItem));
+            
         }
+    }
+
+    IEnumerator PickUpOverTime(GameObject item)
+    {
+        animator.SetBool("holding", true);
+        yield return new WaitForSeconds(.5f);
+        PickUpItem(item);
     }
 
     void PickUpItem(GameObject item)
@@ -129,15 +156,27 @@ public class ItemPickUp : MonoBehaviour
             StopCoroutine(armMovement);
         }
         armMovement = StartCoroutine(LerpArm());
+
+
+        
     }
 
     void Drop()
     {
-        //drop whichever item is currently being held;
-        heldItem.transform.SetParent(null);
-        heldItem.GetComponent<Rigidbody2D>().simulated = true;
-        heldItem.gameObject.tag = "item";
+        if (!droppingItem)
+        {
+            StartCoroutine(DropItemTransition());
+        }
+        animator.SetBool("holding", false);
+    }
 
+    IEnumerator DropItemTransition()
+    {
+        //use this bool to stop the player trying to 'double drop'
+        droppingItem = true;
+        animator.SetFloat("dropping", -1f);
+
+        //start arm movement
         targetArmPosition = armDefaultPosition;
         if (armMovement != null)
         {
@@ -145,8 +184,36 @@ public class ItemPickUp : MonoBehaviour
         }
         armMovement = StartCoroutine(LerpArm());
 
+        //waits for the arm to reach the position where you want to drop the item
+        while (droppingItem)
+        {
+            yield return new WaitForEndOfFrame();
+        }
+        //drop whichever item is currently being held;
+        heldItem.transform.SetParent(null);
+        Rigidbody2D itemRB = heldItem.GetComponent<Rigidbody2D>();
+        itemRB.simulated = true;
+        itemRB.velocity = new Vector3(player.transform.eulerAngles.y==180?-5:5, -20); 
+       
+        heldItem.gameObject.tag = "item";
+
+        
+
         holdingItem = false;
         heldItem = null;
+
+       
     }
-    
+
+    public void OnGrab(InputAction.CallbackContext context)
+    {
+        if (holdingItem)
+        {
+            Drop();
+        }
+        else
+        {
+            PickUp();
+        }
+    }
 }
