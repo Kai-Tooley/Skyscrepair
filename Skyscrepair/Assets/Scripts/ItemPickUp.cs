@@ -184,7 +184,7 @@ public class ItemPickUp : MonoBehaviour
         heldItem.transform.SetParent(null);
         Rigidbody2D itemRB = heldItem.GetComponent<Rigidbody2D>();
         itemRB.simulated = true;
-        itemRB.velocity = new Vector3(5, -20); 
+        itemRB.velocity = new Vector3(player.transform.eulerAngles.y==180?-5:5, -20); 
        
         heldItem.gameObject.tag = "item";
 
