@@ -764,6 +764,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 9095543181397025605}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &698186343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 698186346}
+  - component: {fileID: 698186345}
+  - component: {fileID: 698186344}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &698186344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698186343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &698186345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698186343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &698186346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698186343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &714752829
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,26 +2504,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Elevator
       objectReference: {fileID: 0}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: elevatorExit
-      value: 
-      objectReference: {fileID: 192490099}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.data[0]
-      value: 
-      objectReference: {fileID: 1274402803}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.data[1]
-      value: 
-      objectReference: {fileID: 165654225}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.data[2]
-      value: 
-      objectReference: {fileID: 1965305781}
     - target: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2513,6 +2559,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: elevatorExit
+      value: 
+      objectReference: {fileID: 192490099}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.data[0]
+      value: 
+      objectReference: {fileID: 1274402803}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.data[1]
+      value: 
+      objectReference: {fileID: 165654225}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.data[2]
+      value: 
+      objectReference: {fileID: 1965305781}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51eb8eb414ebf4393b676cbaa277e9, type: 3}
 --- !u!4 &1938423384 stripped
@@ -2711,26 +2777,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Elevator
       objectReference: {fileID: 0}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.data[0]
-      value: 
-      objectReference: {fileID: 358093829}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.data[1]
-      value: 
-      objectReference: {fileID: 1244361241}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: elevatorExit
-      value: 
-      objectReference: {fileID: 1378961808}
     - target: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2786,6 +2832,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.data[0]
+      value: 
+      objectReference: {fileID: 358093829}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.data[1]
+      value: 
+      objectReference: {fileID: 1244361241}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: elevatorExit
+      value: 
+      objectReference: {fileID: 1378961808}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51eb8eb414ebf4393b676cbaa277e9, type: 3}
 --- !u!1 &2024775154 stripped
@@ -2801,6 +2867,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 373314342432222532, guid: c1eb8a06b46ecde4abd15ac2b6c02273,
+        type: 3}
+      propertyPath: m_Name
+      value: GameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 373314342432222532, guid: c1eb8a06b46ecde4abd15ac2b6c02273,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 373314342432222528, guid: c1eb8a06b46ecde4abd15ac2b6c02273,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2904,16 +2980,6 @@ PrefabInstance:
     - target: {fileID: 373314342432222528, guid: c1eb8a06b46ecde4abd15ac2b6c02273,
         type: 3}
       propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 373314342432222532, guid: c1eb8a06b46ecde4abd15ac2b6c02273,
-        type: 3}
-      propertyPath: m_Name
-      value: GameOver
-      objectReference: {fileID: 0}
-    - target: {fileID: 373314342432222532, guid: c1eb8a06b46ecde4abd15ac2b6c02273,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12898,31 +12964,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Elevator
       objectReference: {fileID: 0}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: elevatorExit
-      value: 
-      objectReference: {fileID: 590780883}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
-        type: 3}
-      propertyPath: itemsToBeRepaired.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12977,6 +13018,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: elevatorExit
+      value: 
+      objectReference: {fileID: 590780883}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: itemsToBeRepaired.Array.data[2]
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51eb8eb414ebf4393b676cbaa277e9, type: 3}
