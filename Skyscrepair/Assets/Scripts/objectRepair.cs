@@ -50,6 +50,7 @@ public class objectRepair : MonoBehaviour
             parent.transform.position = transform.position;
             parent.transform.rotation = transform.rotation;
             parent.gameObject.AddComponent<Rigidbody2D>();
+            parent.GetComponent<Rigidbody2D>().mass = 0;
             parent.gameObject.AddComponent<BoxCollider2D>();
             parent.tag = "item";
         }
@@ -73,8 +74,11 @@ public class objectRepair : MonoBehaviour
     {
         gameObject.transform.parent = parent.transform;
         gameObject.tag = "Untagged";
-        if(gameObject.GetComponent<Rigidbody2D>())
+        if (gameObject.GetComponent<Rigidbody2D>())
+        {
+            parent.GetComponent<Rigidbody2D>().mass += gameObject.GetComponent<Rigidbody2D>().mass;
             Destroy(gameObject.GetComponent<Rigidbody2D>());
+        }
         gameObject.transform.localPosition = pos;
         gameObject.transform.rotation = new Quaternion(0, 0, rotation, 0);
     }
