@@ -50,6 +50,7 @@ public class objectRepair : MonoBehaviour
             parent.transform.position = transform.position;
             parent.transform.rotation = transform.rotation;
             parent.gameObject.AddComponent<Rigidbody2D>();
+            parent.tag = "item";
         }
         else if (transform.parent == null)
         {
@@ -60,14 +61,20 @@ public class objectRepair : MonoBehaviour
             parent = transform.parent.gameObject;
         }
 
-        gameObject.transform.parent = parent.transform;
-        Destroy(gameObject.GetComponent<Rigidbody2D>());
-        gameObject.transform.localPosition = pos;
-        part.transform.parent = parent.transform;
-        Destroy(part.GetComponent<Rigidbody2D>());
-        part.transform.localPosition = part.GetComponent<objectRepair>().pos;
+        positionPart(parent);
+        part.GetComponent<objectRepair>().positionPart(parent);
 
         part.GetComponent<objectRepair>().parts.Remove(gameObject);
         parts.Remove(part);
+    }
+
+    void positionPart(GameObject parent)
+    {
+        gameObject.transform.parent = parent.transform;
+        gameObject.tag = "";
+        if(gameObject.GetComponent<Rigidbody2D>())
+            Destroy(gameObject.GetComponent<Rigidbody2D>());
+        gameObject.transform.localPosition = pos;
+        gameObject.transform.rotation = new Quaternion(0, 0, rotation, 0);
     }
 }
