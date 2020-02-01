@@ -71,7 +71,7 @@ public class CameraScroll : MonoBehaviour
             //cam.transform.Rotate(new Vector3(0, 0, Random.Range(0, 5)));
             yield return new WaitForEndOfFrame();
         }
-        effects.ChangeColor(emoji, new Color(255, 255, 255, 1), 1);
+        if(emoji!=null)effects.ChangeColor(emoji, new Color(255, 255, 255, 1), 1);
         while (Time.time - startTime < 6f)
         {
             CameraShake(cameraShakeOnDeath);

@@ -210,6 +210,8 @@ GameObject:
   - component: {fileID: 382469559}
   - component: {fileID: 382469558}
   - component: {fileID: 382469557}
+  - component: {fileID: 382469561}
+  - component: {fileID: 382469560}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -282,6 +284,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &382469560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382469556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a2d7f006643e341863ef0a082b056f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathEffect: {fileID: 3036804101897234647, guid: f87451cadc98d2448b10c66568d2bf27,
+    type: 3}
+  emoji: {fileID: 0}
+  moveSpeed: 1
+  cameraShakeOnDeath: 10
+  tiltcameraShake: 0
+--- !u!114 &382469561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382469556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4a8f484f86e2149a978f569f4f8532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &775234888
 GameObject:
   m_ObjectHideFlags: 0
