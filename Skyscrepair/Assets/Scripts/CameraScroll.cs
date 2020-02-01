@@ -21,12 +21,24 @@ public class CameraScroll : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //set height of camera
+        float yPosition = PlayerPrefs.GetFloat("yCameraPosition", 5);
+
+
         effects = GameObject.Find("Main Camera").GetComponent<ItemEffects>();
         cam = gameObject;
+
+        cam.transform.position = new Vector3(cam.transform.position.x, yPosition, cam.transform.position.z);
+
         player = GameObject.Find("Player");
         camHeight = Camera.main.orthographicSize;
         screenBottomY = cam.transform.position.y - camHeight;
         Debug.Log(screenBottomY);
+    }
+
+    public void UpdateHeight()
+    {
+        PlayerPrefs.SetFloat("yCameraPosition", cam.transform.position.y);
     }
 
     // Update is called once per frame
