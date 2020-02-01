@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Elevator : MonoBehaviour
 {
+    [Tooltip("This is used to see if the elevator is active")]
     public bool isActive = false;
+    [Tooltip("This is pointing to the exit on the next level")]
     public Transform elevatorExit;
+
+    [Tooltip("This is the array of objects that need to be put together")]
     public List<objectRepair> itemsToBeRepaired;
 
     public List<bool> areItemsRepaired;
