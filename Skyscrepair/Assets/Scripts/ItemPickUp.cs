@@ -7,13 +7,13 @@ public class ItemPickUp : MonoBehaviour
     //point at which to hold the item
     private GameObject player;
     public GameObject holdingPoint;
-    public GameObject arm;
+    public  GameObject arm;
     //maximum distance from an item you must be to pick it up
     public float maxDist = 1f;
 
     //what if anything, is the player holding
-    private bool holdingItem = false;
-    private GameObject heldItem;
+    public bool holdingItem = false;
+    public GameObject heldItem;
     
     //current position vs target position
     private Vector3 armPosition = new Vector3(0, 0, 0);
@@ -24,12 +24,19 @@ public class ItemPickUp : MonoBehaviour
     private Vector3 armHoldingPosition = new Vector3(0, 0, 90);
     public float armSpeed;
 
+    //debugging variable
+    public float nearest;
+
     Coroutine armMovement;
     public bool snapToArm;
 
     void Start()
     {
-        player = GameObject.Find("Player");   
+        holdingItem = false;
+     
+        player = gameObject;
+        arm = gameObject.transform.GetChild(0).gameObject;
+        holdingPoint = arm.transform.GetChild(0).gameObject;
     }
 
     void Update()
@@ -38,6 +45,16 @@ public class ItemPickUp : MonoBehaviour
         {
             ItemButtonAction();
         }
+
+        //just outputs distance to closest item if you want
+        //nearest = Mathf.Infinity;
+        //foreach(var obj in GameObject.FindGameObjectsWithTag("item"))
+        //{
+        //    if (Vector2.Distance(obj.transform.position, gameObject.transform.position) < nearest)
+        //    {
+        //        nearest = Vector2.Distance(obj.transform.position, gameObject.transform.position);
+        //    }
+        //}
     }
 
     void ItemButtonAction()
@@ -61,12 +78,10 @@ public class ItemPickUp : MonoBehaviour
             arm.transform.eulerAngles = Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed);
             yield return new WaitForEndOfFrame();
         }
-        Debug.Log("End of lerparm");
     }
 
     void PickUp()
     {
-        Debug.Log("Attempting to pick up item");
         GameObject closestItem = null;
         float minDist = Mathf.Infinity;
 
@@ -88,10 +103,6 @@ public class ItemPickUp : MonoBehaviour
         {
             PickUpItem(closestItem);
         }
-        else
-        {
-            Debug.Log("Closest item was " + minDist);
-        }
     }
 
     void PickUpItem(GameObject item)
@@ -99,6 +110,7 @@ public class ItemPickUp : MonoBehaviour
         //set holdingItem true and update the held item
         holdingItem = true;
         heldItem = item;
+        heldItem.gameObject.tag = "heldItem"; //change the tag to make it inaccessible to the other player
 
         if (snapToArm)
         {
@@ -115,8 +127,6 @@ public class ItemPickUp : MonoBehaviour
             StopCoroutine(armMovement);
         }
         armMovement = StartCoroutine(LerpArm());
-        
-
     }
 
     void Drop()
@@ -124,6 +134,7 @@ public class ItemPickUp : MonoBehaviour
         //drop whichever item is currently being held;
         heldItem.transform.SetParent(null);
         heldItem.GetComponent<Rigidbody2D>().simulated = true;
+        heldItem.gameObject.tag = "item";
 
         targetArmPosition = armDefaultPosition;
         if (armMovement != null)
