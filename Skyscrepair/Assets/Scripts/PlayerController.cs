@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 m_Look;
     public Vector2 m_Move;
 
-    float moveSpeed = 10f;
+    float moveSpeed = 5f;
     float rotateSpeed = 60f;
 
     PlayerInput input;

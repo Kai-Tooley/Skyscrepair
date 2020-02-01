@@ -23,7 +23,7 @@ public class ItemPickUp : MonoBehaviour
     private Vector3 targetArmPosition = new Vector3(0, 0, 0);
 
     //defaults for holding or not holding an item
-    private Vector3 armDefaultPosition = new Vector3(0, 0, -20);
+    private Vector3 armDefaultPosition = new Vector3(0, 0, 0);
     private Vector3 armHoldingPosition = new Vector3(0, 0, 90);
     private Vector3 armDroppingPosition = new Vector3(0, 0, 40);
     public float armSpeed;
@@ -89,6 +89,7 @@ public class ItemPickUp : MonoBehaviour
         Vector3 startPosition = arm.transform.localEulerAngles;
         while(arm.transform.localEulerAngles != targetArmPosition)
         {
+            Debug.Log(Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed));
             arm.transform.localEulerAngles = Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed);
             if(arm.transform.localEulerAngles.z < armDroppingPosition.z)
             {
@@ -120,8 +121,16 @@ public class ItemPickUp : MonoBehaviour
         //if there was an item in range pick up the closest one, otherwise do nothing
         if (closestItem != null)
         {
-            PickUpItem(closestItem);
+            StartCoroutine(PickUpOverTime(closestItem));
+            
         }
+    }
+
+    IEnumerator PickUpOverTime(GameObject item)
+    {
+        animator.SetBool("holding", true);
+        yield return new WaitForSeconds(.5f);
+        PickUpItem(item);
     }
 
     void PickUpItem(GameObject item)
@@ -149,7 +158,7 @@ public class ItemPickUp : MonoBehaviour
         armMovement = StartCoroutine(LerpArm());
 
 
-        animator.SetBool("holding", true);
+        
     }
 
     void Drop()
