@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move(m_Move);
-        Look(m_Look);
+        //Look(m_Look);
     }
 
 

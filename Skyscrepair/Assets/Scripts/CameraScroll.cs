@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CameraScroll : MonoBehaviour
 {
+    public GameObject endGame;
     public GameObject deathEffect;
     public GameObject emoji;
     public float moveSpeed;
@@ -72,6 +73,7 @@ public class CameraScroll : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         if(emoji!=null)effects.ChangeColor(emoji, new Color(255, 255, 255, 1), 1);
+        endGame.SetActive(true);
         while (Time.time - startTime < 6f)
         {
             CameraShake(cameraShakeOnDeath);
