@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ItemPickUp : MonoBehaviour
 {
@@ -148,5 +149,16 @@ public class ItemPickUp : MonoBehaviour
         holdingItem = false;
         heldItem = null;
     }
-    
+
+    public void OnGrab(InputAction.CallbackContext context)
+    {
+        if (holdingItem)
+        {
+            Drop();
+        }
+        else
+        {
+            PickUp();
+        }
+    }
 }
