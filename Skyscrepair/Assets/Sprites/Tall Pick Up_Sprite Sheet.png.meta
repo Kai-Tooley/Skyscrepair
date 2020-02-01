@@ -1,7 +1,124 @@
 fileFormatVersion: 2
 guid: 4b843a635e5d5de49b7421bab86aebcd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7073609630939129477
+    second: Tall Pick Up_Sprite Sheet_0
+  - first:
+      213: -4419236557898443188
+    second: Tall Pick Up_Sprite Sheet_1
+  - first:
+      213: -3361760045722912163
+    second: Tall Pick Up_Sprite Sheet_2
+  - first:
+      213: 6428960115367263146
+    second: Tall Pick Up_Sprite Sheet_3
+  - first:
+      213: -1079625017613679014
+    second: Tall Pick Up_Sprite Sheet_4
+  - first:
+      213: -7510611718562412103
+    second: Tall Pick Up_Sprite Sheet_5
+  - first:
+      213: 4546136896228531079
+    second: Tall Pick Up_Sprite Sheet_6
+  - first:
+      213: 8348497802395667843
+    second: Tall Pick Up_Sprite Sheet_7
+  - first:
+      213: -7156300378695096595
+    second: Tall Pick Up_Sprite Sheet_8
+  - first:
+      213: 9019349637732125791
+    second: Tall Pick Up_Sprite Sheet_9
+  - first:
+      213: -1656282485221376681
+    second: Tall Pick Up_Sprite Sheet_10
+  - first:
+      213: 1490300248887057477
+    second: Tall Pick Up_Sprite Sheet_11
+  - first:
+      213: 5747408689590099654
+    second: Tall Pick Up_Sprite Sheet_12
+  - first:
+      213: 6795050292440780055
+    second: Tall Pick Up_Sprite Sheet_13
+  - first:
+      213: 7892525983721761376
+    second: Tall Pick Up_Sprite Sheet_14
+  - first:
+      213: 121056573034330136
+    second: Tall Pick Up_Sprite Sheet_15
+  - first:
+      213: -710345702776997549
+    second: Tall Pick Up_Sprite Sheet_16
+  - first:
+      213: 8179241735289122455
+    second: Tall Pick Up_Sprite Sheet_17
+  - first:
+      213: 6971328321985098197
+    second: Tall Pick Up_Sprite Sheet_18
+  - first:
+      213: 8612303165239435337
+    second: Tall Pick Up_Sprite Sheet_19
+  - first:
+      213: 7927429777193415840
+    second: Tall Pick Up_Sprite Sheet_20
+  - first:
+      213: -3640658302160865588
+    second: Tall Pick Up_Sprite Sheet_21
+  - first:
+      213: -5512967762509027691
+    second: Tall Pick Up_Sprite Sheet_22
+  - first:
+      213: 1477429683262831977
+    second: Tall Pick Up_Sprite Sheet_23
+  - first:
+      213: -8602852898320279299
+    second: Tall Pick Up_Sprite Sheet_24
+  - first:
+      213: 4737845470291269895
+    second: Tall Pick Up_Sprite Sheet_25
+  - first:
+      213: 147415710688153618
+    second: Tall Pick Up_Sprite Sheet_26
+  - first:
+      213: -7802294444283837973
+    second: Tall Pick Up_Sprite Sheet_27
+  - first:
+      213: -6434945042661290009
+    second: Tall Pick Up_Sprite Sheet_28
+  - first:
+      213: -790805383342273721
+    second: Tall Pick Up_Sprite Sheet_29
+  - first:
+      213: 7919766374487396224
+    second: Tall Pick Up_Sprite Sheet_30
+  - first:
+      213: -3594443123165956340
+    second: Tall Pick Up_Sprite Sheet_31
+  - first:
+      213: 2269413797637998780
+    second: Tall Pick Up_Sprite Sheet_32
+  - first:
+      213: 7540627870847576158
+    second: Tall Pick Up_Sprite Sheet_33
+  - first:
+      213: -6623170685088902392
+    second: Tall Pick Up_Sprite Sheet_34
+  - first:
+      213: 1626624504531163298
+    second: Tall Pick Up_Sprite Sheet_35
+  - first:
+      213: -1217090210842450544
+    second: Tall Pick Up_Sprite Sheet_36
+  - first:
+      213: 2065702435798904985
+    second: Tall Pick Up_Sprite Sheet_37
+  - first:
+      213: -7913968594466312815
+    second: Tall Pick Up_Sprite Sheet_38
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +157,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +187,912 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d360c8ca47d424884b64df0436d4e9
+      internalID: 7073609630939129477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9e3feb625c0784aa1904d9de87ce64
+      internalID: -4419236557898443188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e81376bf5e092a4e99b7a9dbd7322fc
+      internalID: -3361760045722912163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16e312836339f64c8ffe02156b02d20
+      internalID: 6428960115367263146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f6b8cd4aeba6d48ab793c9a67ac784
+      internalID: -1079625017613679014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559b194b969fbbe4b8da6f70a802993f
+      internalID: -7510611718562412103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeeb084d0ad277c4b8869642649a4520
+      internalID: 4546136896228531079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060b65ac7a606304e819e506f577fe31
+      internalID: 8348497802395667843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e547b9cbde2dd6b4da12ada76c34cb9c
+      internalID: -7156300378695096595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592d360220dc187418ba206944acdb9b
+      internalID: 9019349637732125791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e01ea3b29a6de47917bbd23e8771c3
+      internalID: -1656282485221376681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e6bcfbaad53004a951b94dde7a8304
+      internalID: 1490300248887057477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeb55b71ca01a245825e4a2c275c038
+      internalID: 5747408689590099654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed940db2f4063446814f5ccc3afdb6d
+      internalID: 6795050292440780055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd0a40f2d3f49a4fbf8a6d9c88f97a3
+      internalID: 7892525983721761376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ac69ce85e166a4eb2fcb48d68f9b49
+      internalID: 121056573034330136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2680d5798e1d6e34c932a7eaa0b86b95
+      internalID: -710345702776997549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039377ce6cba6324c90201ee393b2807
+      internalID: 8179241735289122455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067206f93ce345746a9ed8965dae3322
+      internalID: 6971328321985098197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aae624ac0be9d4a9d2c1ce7c724251
+      internalID: 8612303165239435337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26523551fc77984cb391ba680cc8ad5
+      internalID: 7927429777193415840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfbf6c4e392eb54cab66450d8befbe7
+      internalID: -3640658302160865588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c880eaa849076c24b963242529df5b5d
+      internalID: -5512967762509027691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a565cc8592d3f45b9f41c49a80ae61
+      internalID: 1477429683262831977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19cbc1b2df7f074893aa7a804efd8b8
+      internalID: -8602852898320279299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322928dd60536d64ca8de283cf91ac8c
+      internalID: 4737845470291269895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc4d9a9f4f70ca4dbd41b446483d09f
+      internalID: 147415710688153618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bef7f9547f27d49889d83899836b00
+      internalID: -7802294444283837973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1f06234ce8ae6408a044146426c740
+      internalID: -6434945042661290009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b1da99a82800340bd9a212d3ac4c60
+      internalID: -790805383342273721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c7ece79ea2c224f9962fb7882ef26a
+      internalID: 7919766374487396224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca129d18fe86ae4aa5900c912fb9542
+      internalID: -3594443123165956340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ed770a48480f74cbba218230500bc7
+      internalID: 2269413797637998780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb44a1e59d146674c9104e9751bae1b6
+      internalID: 7540627870847576158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab4af36dd502cc43baba0554d279454
+      internalID: -6623170685088902392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafc1e2aff36a5740af5f190ab59e2ab
+      internalID: 1626624504531163298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572f16ad7191cbb4ca5448f76afd35f4
+      internalID: -1217090210842450544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd236333e1902b4a899b8445e4dac53
+      internalID: 2065702435798904985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Pick Up_Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6766d945f51aa449866f47d13d3d1d
+      internalID: -7913968594466312815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

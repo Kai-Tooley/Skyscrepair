@@ -1,7 +1,79 @@
 fileFormatVersion: 2
-guid: 25776f468e2e606428a7b007f5ab57be
+guid: 64009dc95d670144baa2557a44410a78
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5238140389826935655
+    second: Fat Walkcycle Regular_Sprite Sheet_0
+  - first:
+      213: 1486020963898130557
+    second: Fat Walkcycle Regular_Sprite Sheet_1
+  - first:
+      213: -7199068371089074758
+    second: Fat Walkcycle Regular_Sprite Sheet_2
+  - first:
+      213: 8147981016248362196
+    second: Fat Walkcycle Regular_Sprite Sheet_3
+  - first:
+      213: -272412213235114260
+    second: Fat Walkcycle Regular_Sprite Sheet_4
+  - first:
+      213: -1237039327015971628
+    second: Fat Walkcycle Regular_Sprite Sheet_5
+  - first:
+      213: 1064807642877289
+    second: Fat Walkcycle Regular_Sprite Sheet_6
+  - first:
+      213: 6285884243836619233
+    second: Fat Walkcycle Regular_Sprite Sheet_7
+  - first:
+      213: -5864855079243935746
+    second: Fat Walkcycle Regular_Sprite Sheet_8
+  - first:
+      213: 199536195439633960
+    second: Fat Walkcycle Regular_Sprite Sheet_9
+  - first:
+      213: 7451409756341359367
+    second: Fat Walkcycle Regular_Sprite Sheet_10
+  - first:
+      213: -2630884253501742321
+    second: Fat Walkcycle Regular_Sprite Sheet_11
+  - first:
+      213: 8370218494042049244
+    second: Fat Walkcycle Regular_Sprite Sheet_12
+  - first:
+      213: -2665597994861600970
+    second: Fat Walkcycle Regular_Sprite Sheet_13
+  - first:
+      213: -4694691077163553660
+    second: Fat Walkcycle Regular_Sprite Sheet_14
+  - first:
+      213: -3430488206404172794
+    second: Fat Walkcycle Regular_Sprite Sheet_15
+  - first:
+      213: -8412844825725734514
+    second: Fat Walkcycle Regular_Sprite Sheet_16
+  - first:
+      213: 8580586064063045387
+    second: Fat Walkcycle Regular_Sprite Sheet_17
+  - first:
+      213: -995951563733675955
+    second: Fat Walkcycle Regular_Sprite Sheet_18
+  - first:
+      213: -4782413743585703697
+    second: Fat Walkcycle Regular_Sprite Sheet_19
+  - first:
+      213: -3639959756122349786
+    second: Fat Walkcycle Regular_Sprite Sheet_20
+  - first:
+      213: -1256440836421478274
+    second: Fat Walkcycle Regular_Sprite Sheet_21
+  - first:
+      213: -6901593463250972911
+    second: Fat Walkcycle Regular_Sprite Sheet_22
+  - first:
+      213: 6282356468254215922
+    second: Fat Walkcycle Regular_Sprite Sheet_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +112,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +142,597 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3384bac6004aa4b8634542bc316d9b
+      internalID: 5238140389826935655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ec65082cfb50941a723dd29b54169e
+      internalID: 1486020963898130557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d97925bc156e34a94da1ba58342ddf
+      internalID: -7199068371089074758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcad19e3f0a7d040aecce4e50a424e2
+      internalID: 8147981016248362196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69d48065c7fdf6458136a3fbeebaefe
+      internalID: -272412213235114260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df71736f532fb1543a6413a4af507e54
+      internalID: -1237039327015971628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af20c6112e35c06459de5733aa110253
+      internalID: 1064807642877289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2203c1614dfb34d9fcdbbcc85ca6c8
+      internalID: 6285884243836619233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1ca1a575b06814d949af470c966c76
+      internalID: -5864855079243935746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d0dd22b01360649b144727d88e01ec
+      internalID: 199536195439633960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59052d5ef4599844783c596b5dc45f7a
+      internalID: 7451409756341359367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97c18af728e8b0468cd719f60ecccb1
+      internalID: -2630884253501742321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d909c82464f72454aa68fef907e9ae7f
+      internalID: 8370218494042049244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4092ae619e4582045ae225fb328cb59d
+      internalID: -2665597994861600970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526c4e89894d71841b36736175bba9b1
+      internalID: -4694691077163553660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9656fb428f2cd4984a574d3e3fe4e1
+      internalID: -3430488206404172794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b21e097a8b9c449ada0b071f0e126
+      internalID: -8412844825725734514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f42069a6122f834988ccce7bc737c33
+      internalID: 8580586064063045387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de03e0ab70b42544b23b150ace80bf1
+      internalID: -995951563733675955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa3c45b79f5e454591e408dbb9b79a1
+      internalID: -4782413743585703697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b8e525d896dc44ebeb5f24638cfab6
+      internalID: -3639959756122349786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38e7c22feb496e449c9004a5d006056
+      internalID: -1256440836421478274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c05fb0c1a078c41a4c54ea4c9282ac
+      internalID: -6901593463250972911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Walkcycle Regular_Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dd13389d4251d439743783c84af06e
+      internalID: 6282356468254215922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
