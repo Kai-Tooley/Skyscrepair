@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - item
+  - heldItem
+  - fixedItem
   layers:
   - Default
   - TransparentFX
