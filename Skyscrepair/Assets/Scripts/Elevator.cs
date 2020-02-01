@@ -68,7 +68,7 @@ public class Elevator : MonoBehaviour
                 item.transform.position = elevatorExit.position;
             }
 
-            cameraMain.transform.Translate(Vector3.up * camStep);
+            //cameraMain.transform.Translate(Vector3.up * camStep);
         }
     }
 }

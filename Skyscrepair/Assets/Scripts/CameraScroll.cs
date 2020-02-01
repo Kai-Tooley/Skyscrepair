@@ -22,7 +22,7 @@ public class CameraScroll : MonoBehaviour
     void Start()
     {
         //set height of camera
-        float yPosition = PlayerPrefs.GetFloat("yCameraPosition", 5);
+        float yPosition = PlayerPrefs.GetFloat("yCameraPosition", 0);
 
 
         effects = GameObject.Find("Main Camera").GetComponent<ItemEffects>();
