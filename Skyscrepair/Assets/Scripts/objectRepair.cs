@@ -27,8 +27,8 @@ public class objectRepair : MonoBehaviour
     {
         if (!collision.gameObject.GetComponent<objectRepair>())
             return;
-        if (order > collision.gameObject.GetComponent<objectRepair>().order)
-            return;
+        //if (order > collision.gameObject.GetComponent<objectRepair>().order)
+        //    return;
 
         foreach (var item in parts)
         {
@@ -50,6 +50,7 @@ public class objectRepair : MonoBehaviour
             parent.transform.position = transform.position;
             parent.transform.rotation = transform.rotation;
             parent.gameObject.AddComponent<Rigidbody2D>();
+            parent.gameObject.AddComponent<BoxCollider2D>();
             parent.tag = "item";
         }
         else if (transform.parent == null)
@@ -71,7 +72,7 @@ public class objectRepair : MonoBehaviour
     void positionPart(GameObject parent)
     {
         gameObject.transform.parent = parent.transform;
-        gameObject.tag = "";
+        gameObject.tag = "Untagged";
         if(gameObject.GetComponent<Rigidbody2D>())
             Destroy(gameObject.GetComponent<Rigidbody2D>());
         gameObject.transform.localPosition = pos;
