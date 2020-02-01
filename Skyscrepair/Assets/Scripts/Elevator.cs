@@ -48,8 +48,12 @@ public class Elevator : MonoBehaviour
             if (areItemsRepaired.Contains(!false))
             {
                 isActive = true;
-                elevatorLight.color = Color.green;
             }
+        }
+
+        if (isActive)
+        {
+            elevatorLight.color = Color.green;
         }
     }
 
