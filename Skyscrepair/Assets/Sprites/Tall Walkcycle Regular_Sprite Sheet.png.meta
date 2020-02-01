@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: b7aa29a61a291df4bac2a75ce3fbe0a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7667336639684554619
+    second: Tall Walkcycle Regular_Sprite Sheet_0
+  - first:
+      213: 1308777593785611180
+    second: Tall Walkcycle Regular_Sprite Sheet_1
+  - first:
+      213: -1628924916387745006
+    second: Tall Walkcycle Regular_Sprite Sheet_2
+  - first:
+      213: 1466731411574421912
+    second: Tall Walkcycle Regular_Sprite Sheet_3
+  - first:
+      213: -7126219683539524588
+    second: Tall Walkcycle Regular_Sprite Sheet_4
+  - first:
+      213: -3590544219526625570
+    second: Tall Walkcycle Regular_Sprite Sheet_5
+  - first:
+      213: 6201467963749086069
+    second: Tall Walkcycle Regular_Sprite Sheet_6
+  - first:
+      213: 4554082705091665048
+    second: Tall Walkcycle Regular_Sprite Sheet_7
+  - first:
+      213: 7676413646757375186
+    second: Tall Walkcycle Regular_Sprite Sheet_8
+  - first:
+      213: -2930957739173110044
+    second: Tall Walkcycle Regular_Sprite Sheet_9
+  - first:
+      213: 7360600439280583142
+    second: Tall Walkcycle Regular_Sprite Sheet_10
+  - first:
+      213: -1095021738647130234
+    second: Tall Walkcycle Regular_Sprite Sheet_11
+  - first:
+      213: 8057734762728546732
+    second: Tall Walkcycle Regular_Sprite Sheet_12
+  - first:
+      213: 1203047320803378965
+    second: Tall Walkcycle Regular_Sprite Sheet_13
+  - first:
+      213: -2205568000204107156
+    second: Tall Walkcycle Regular_Sprite Sheet_14
+  - first:
+      213: -6190384558976796829
+    second: Tall Walkcycle Regular_Sprite Sheet_15
+  - first:
+      213: 2042953851747151032
+    second: Tall Walkcycle Regular_Sprite Sheet_16
+  - first:
+      213: 6987717969289727196
+    second: Tall Walkcycle Regular_Sprite Sheet_17
+  - first:
+      213: 6706459529342562758
+    second: Tall Walkcycle Regular_Sprite Sheet_18
+  - first:
+      213: -1064981569177736658
+    second: Tall Walkcycle Regular_Sprite Sheet_19
+  - first:
+      213: 255068766625824634
+    second: Tall Walkcycle Regular_Sprite Sheet_20
+  - first:
+      213: -3326583211709330893
+    second: Tall Walkcycle Regular_Sprite Sheet_21
+  - first:
+      213: -3468457556751399180
+    second: Tall Walkcycle Regular_Sprite Sheet_22
+  - first:
+      213: -5587610817587543909
+    second: Tall Walkcycle Regular_Sprite Sheet_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506f56611df483b4d87e0ae333b90fe5
+      internalID: -7667336639684554619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2383952e1798d1c4a82da13dc1247717
+      internalID: 1308777593785611180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25547c2f1f967254a8c27bfd98c42c45
+      internalID: -1628924916387745006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6304904f7c3e77b4dbcb3b2c1f7804e7
+      internalID: 1466731411574421912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab244e244151ea47bfe2874c6d1bbb9
+      internalID: -7126219683539524588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f5fb7029e5202469f7ed7565ebe993
+      internalID: -3590544219526625570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2fa70683477894fa0d45ecfc9d0115
+      internalID: 6201467963749086069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 6092
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1c8ae1c81be9f47badb117b090acc4
+      internalID: 4554082705091665048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f749050b62c455c49b9e9c7ceb43a630
+      internalID: 7676413646757375186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a155e3e36ae6df42b8e80fc63e74555
+      internalID: -2930957739173110044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb94dd5f54be5e469d9fd12f26c5aec
+      internalID: 7360600439280583142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f49d0f65397dd4eb19d27a37386c36
+      internalID: -1095021738647130234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b973a94aaab114d886445e1e887ee0
+      internalID: 8057734762728546732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294578a3e40da964d982dd82ddfe341a
+      internalID: 1203047320803378965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339413eb0ad2bda469f62494c2b59bec
+      internalID: -2205568000204107156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 3992
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b97883ffb0fca04ca7fdd3c4bd5e7ec
+      internalID: -6190384558976796829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff42d64de26235047a7ecf16021e012a
+      internalID: 2042953851747151032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1baa723d5e476499ea55114dbce28e
+      internalID: 6987717969289727196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6cbd3406105d24f9f4d60fc3754524
+      internalID: 6706459529342562758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df2630ffd8953a4ab2fbded79ac1c42
+      internalID: -1064981569177736658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323e86fb706f4b54eb353bb4c7202c0d
+      internalID: 255068766625824634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607da7416ce689940b388487618bd88e
+      internalID: -3326583211709330893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baff87e19de424440896c2e703ba25b2
+      internalID: -3468457556751399180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Walkcycle Regular_Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 1892
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95370806f0cd39941a8c89965b77181b
+      internalID: -5587610817587543909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
