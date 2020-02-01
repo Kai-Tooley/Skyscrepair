@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class ItemPickUp : MonoBehaviour
 {
+    public ItemEffects effects;
     //point at which to hold the item
     private GameObject player;
-    public GameObject holdingPoint;
-    public  GameObject arm;
+    private GameObject holdingPoint;
+    private  GameObject arm;
     //maximum distance from an item you must be to pick it up
     public float maxDist = 1f;
 
     //what if anything, is the player holding
-    public bool holdingItem = false;
-    public GameObject heldItem;
+    private bool holdingItem = false;
+    private GameObject heldItem;
     
     //current position vs target position
     private Vector3 armPosition = new Vector3(0, 0, 0);
@@ -25,7 +26,7 @@ public class ItemPickUp : MonoBehaviour
     public float armSpeed;
 
     //debugging variable
-    public float nearest;
+    //public float nearest;
 
     Coroutine armMovement;
     public bool snapToArm;
@@ -119,6 +120,7 @@ public class ItemPickUp : MonoBehaviour
         //attach item to the holding point and disable the rigidbody
         item.transform.SetParent(holdingPoint.transform);
         item.GetComponent<Rigidbody2D>().simulated = false;
+        //effects.ChangeColor(item.gameObject, new Color(0, 250, 250), 1);
 
         //move the arm
         targetArmPosition = armHoldingPosition;
