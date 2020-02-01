@@ -5,6 +5,7 @@ using UnityEngine;
 public class Floor0Controller : MonoBehaviour
 {
     public Elevator elevatorController;
+    public GameObject sparks;
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +22,6 @@ public class Floor0Controller : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         elevatorController.isActive = true;
+        sparks.SetActive(false);
     }
 }
