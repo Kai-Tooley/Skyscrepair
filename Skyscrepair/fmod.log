@@ -8,7 +8,7 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002EB91D4E078 isAsync 1 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001AA2914B8E8 isAsync 1 updatePeriod 0.02
 [LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
@@ -23,248 +23,1609 @@
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA3A8806C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='spark_2', format=2, channels=1, frequency=48000, lengthbytes=12704, lengthpcm=65600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.271604.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA3A8806C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='spark', format=2, channels=1, frequency=48000, lengthbytes=11936, lengthpcm=59200, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.067480.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA3A8806C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='spark_1', format=2, channels=1, frequency=48000, lengthbytes=6912, lengthpcm=36800, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.040103.
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA46A0C3C8 : node = 000001AA4663E870
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA46A0C3C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663E988
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA46A0C3C8
+[LOG] SoundI::getSubSound                      : sound 000001AA46A0C3C8.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA46A0D658
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA3A881E28
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='Lift01', format=2, channels=2, frequency=48000, lengthbytes=10144, lengthpcm=52938, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.554768.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA3A881E28
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='Lift02', format=2, channels=2, frequency=48000, lengthbytes=36864, lengthpcm=140580, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.085846.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA3A881E28
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='Lift03', format=2, channels=2, frequency=48000, lengthbytes=39872, lengthpcm=153415, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.137787.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA46A0D658
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA29645B78 : node = 000001AA3345EF30
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA29645B78
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA3345F048
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA29645B78
+[LOG] SoundI::getSubSound                      : sound 000001AA29645B78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA46A0C3C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA25B4F558)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA46A0D658)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124238 : node = 000001AA3345E600
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124238
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA3345E718
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124238
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124238.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA29645B78)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52208)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA29645D28)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA29645B78 : node = 000001AA4663F830
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA29645B78
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663F948
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='BigWoodFoot', format=2, channels=1, frequency=48000, lengthbytes=3360, lengthpcm=19200, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.298087.
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='SmallCarpetFoot', format=2, channels=1, frequency=48000, lengthbytes=3744, lengthpcm=21600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.040041.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='BigWoodFoot_1', format=2, channels=1, frequency=48000, lengthbytes=3904, lengthpcm=23200, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.135214.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='BigWoodFoot_2', format=2, channels=1, frequency=48000, lengthbytes=3296, lengthpcm=19200, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.255616.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='SmallWoodFoot_3', format=2, channels=1, frequency=48000, lengthbytes=3872, lengthpcm=21600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.137342.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='SmallCarpetFoot_3', format=2, channels=1, frequency=48000, lengthbytes=3328, lengthpcm=19200, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.048270.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='BigCarpetFoot_3', format=2, channels=1, frequency=48000, lengthbytes=4160, lengthpcm=24032, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.843602.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='SmallCarpetFoot_2', format=2, channels=1, frequency=48000, lengthbytes=3712, lengthpcm=21600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.014071.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA29645B78
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BigWoodFoot_3', format=2, channels=1, frequency=48000, lengthbytes=3840, lengthpcm=22400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.258730.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SmallWoodFoot_2', format=2, channels=1, frequency=48000, lengthbytes=4160, lengthpcm=23200, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.217980.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SmallWoodFoot', format=2, channels=1, frequency=48000, lengthbytes=3744, lengthpcm=20800, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.216316.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BigCarpetFoot_2', format=2, channels=1, frequency=48000, lengthbytes=4512, lengthpcm=26272, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.282256.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BigWoodFoot_4', format=2, channels=1, frequency=48000, lengthbytes=4832, lengthpcm=28000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.081899.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SmallWoodFoot_1', format=2, channels=1, frequency=48000, lengthbytes=4064, lengthpcm=23200, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.253226.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BigCarpetFoot_4', format=2, channels=1, frequency=48000, lengthbytes=3520, lengthpcm=21376, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.351738.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BigCarpetFoot', format=2, channels=1, frequency=48000, lengthbytes=5696, lengthpcm=33664, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.617369.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238B7BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SmallCarpetFoot_1', format=2, channels=1, frequency=48000, lengthbytes=3936, lengthpcm=22400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.045731.
+[LOG] SoundI::getSubSound                      : sound 000001AA29645B78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F51EC8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA4663F980
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663FA98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA29645B78)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F526E8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA29646088)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA4663F830
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663F948
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52BC8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA4663F980
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663FA98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F51EC8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA4663F830
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663F948
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA238BA888
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='firework', format=2, channels=2, frequency=48000, lengthbytes=24448, lengthpcm=119040, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52068)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA3345E600
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA3345E718
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52208)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA7D352EB0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA7D352FC8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA25B4EED8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA7D353000
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA7D353118
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA25B4F558)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA2A747DA0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747EB8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA25209B68)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA2A747B00
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747C18
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA25207608)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA2A747DA0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747EB8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52A28)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA2A747B00
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747C18
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52548)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA2A747DA0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747EB8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52A28)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA2A747B00
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747C18
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52548)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA2A747320
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747438
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52BC8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA2A747B00
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747C18
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52068)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA4663F830
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663F948
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52A28)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA4663E870
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663E988
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52068)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA4663E9C0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663EAD8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52208)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA4663E870
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663E988
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F51EC8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A123B78 : node = 000001AA252ACA90
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A123B78
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA252ACBA8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A123B78
+[LOG] SoundI::getSubSound                      : sound 000001AA3A123B78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52548)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA3345E4B0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA3345E5C8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F526E8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA3345E600
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA3345E718
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52A28)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA3345E4B0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA3345E5C8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F526E8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA4663F980
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663FA98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52BC8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124238 : node = 000001AA4663E870
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124238
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663E988
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124238
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124238.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52548)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A123B78 : node = 000001AA4663E9C0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A123B78
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663EAD8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A123B78
+[LOG] SoundI::getSubSound                      : sound 000001AA3A123B78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA23F52208)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA4663F980
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663FA98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3ABC7048)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA4663E870
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663E988
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA25209008)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA4663F980
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663FA98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3AB44B18)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A1239C8 : node = 000001AA4663E870
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663E988
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A1239C8
+[LOG] SoundI::getSubSound                      : sound 000001AA3A1239C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3ABC6EA8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA4663E9C0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA4663EAD8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A1239C8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3ABC7048)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA29646088 : node = 000001AA2A747B00
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA29646088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747C18
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA29646088
+[LOG] SoundI::getSubSound                      : sound 000001AA29646088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3ABC6EA8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA29645B78 : node = 000001AA2A747DA0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA29645B78
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747EB8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA29645B78
+[LOG] SoundI::getSubSound                      : sound 000001AA29645B78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA29646088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3ABC7048)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA29645D28)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA2A747320
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA2A747438
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA29645B78)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3ABC6EA8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA29645ED8)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='179867__toiletrolltube__car-horn-1-3-11', format=2, channels=2, frequency=48000, lengthbytes=42336, lengthpcm=163222, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.708466.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Accordion 4', format=2, channels=2, frequency=48000, lengthbytes=167392, lengthpcm=448831, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Accordion 2', format=2, channels=2, frequency=48000, lengthbytes=153952, lengthpcm=448831, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Accordion 1', format=2, channels=2, frequency=48000, lengthbytes=154528, lengthpcm=448831, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='182474__keweldog__car-horn', format=2, channels=2, frequency=48000, lengthbytes=41120, lengthpcm=207468, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.306274.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Accordion 3', format=2, channels=2, frequency=48000, lengthbytes=145856, lengthpcm=448830, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Guit lead 2', format=2, channels=2, frequency=48000, lengthbytes=61216, lengthpcm=280500, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='83465__bsumusictech__car-horn', format=2, channels=2, frequency=48000, lengthbytes=53952, lengthpcm=216572, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.076111.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Guit lead 1', format=2, channels=2, frequency=48000, lengthbytes=58432, lengthpcm=280520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F2C494F10C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000055A010EEAC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8BEFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8BEFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8BEFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8BEFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002EB9B552158
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCE44BD9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCE44BD990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCE44BDA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCE44BDB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AA28D158E8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Guit lead 3', format=2, channels=2, frequency=48000, lengthbytes=63200, lengthpcm=252468, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
 [LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] SystemI::createSound                     : setdata soundi = 000002EBE619B5F8 : node = 000002EB8DF87690
-[LOG] SystemI::createSound                     : add node to async list : head = 000002EB8BEA9F38.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002EBE619B5F8
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA29646088 : node = 000001AA472E0DA0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA29646088
 [LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 74368
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSound                     :     setdata soundi = 000001AA29645ED8 : node = 000001AA472E1040
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001AA3ABC6B18.  list count = 0
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002EB8DF877A8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E0EB8
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSound                     :     filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
 [LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 000002EBE619B0E8 : node = 000002EB91F035C0
-[LOG] SystemI::createSound                     :     add node to async list : head = 000002EB8BEA9F38.  list count = 0
+[LOG] SystemI::createSound                     :     setdata soundi = 000001AA3ABC2348 : node = 000001AA472DFC90
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001AA3ABC6B18.  list count = 1
+[LOG] SystemI::createSound                     :     filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000001AA3ABC24F8 : node = 000001AA472E1190
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001AA3ABC6B18.  list count = 2
+[LOG] SystemI::createSound                     :     filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000001AA3ABC26A8 : node = 000001AA472E09B0
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001AA3ABC6B18.  list count = 3
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='451211__kyles__skyline-distant-highway-far-haze-from-campground-night2', format=2, channels=2, frequency=48000, lengthbytes=679136, lengthpcm=2814812, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.138407.
-[LOG] SystemI::createSound                     :     filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 000002EBE619AD88 : node = 000002EB91F04580
-[LOG] SystemI::createSound                     :     add node to async list : head = 000002EB8BEA9F38.  list count = 1
-[LOG] SystemI::createSound                     :     filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 000002EBE619B448 : node = 000002EB91F04EB0
-[LOG] SystemI::createSound                     :     add node to async list : head = 000002EB8BEA9F38.  list count = 2
-[LOG] SystemI::createSound                     :     filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 000002EBE619B298 : node = 000002EB91F04970
-[LOG] SystemI::createSound                     :     add node to async list : head = 000002EB8BEA9F38.  list count = 3
-[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002EBE619B5F8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002EBE619B0E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA29646088
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA29645ED8
 [LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002EB91F036D8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E1158
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Piano Melody', format=2, channels=2, frequency=48000, lengthbytes=175616, lengthpcm=897663, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002EBE619B0E8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002EBE619AD88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA29645ED8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3ABC2348
 [LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002EB91F04698
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472DFDA8
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Low Piano', format=2, channels=2, frequency=48000, lengthbytes=185216, lengthpcm=897663, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002EBE619AD88
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002EBE619B448
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3ABC2348
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3ABC24F8
 [LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002EB91F04FC8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E12A8
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guit finger', format=2, channels=2, frequency=48000, lengthbytes=202624, lengthpcm=897663, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002EBE619B448
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002EBE619B298
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3ABC24F8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3ABC26A8
 [LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3272896
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 74368
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002EB91F04A88
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E0AC8
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='High Piano', format=2, channels=2, frequency=48000, lengthbytes=201120, lengthpcm=897663, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002EBE619B298
-[LOG] SoundI::getSubSound                      : sound 000002EBE619B5F8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 000002EBE619B0E8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 000002EBE619AD88.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 000002EBE619B448.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 000002EBE619B298.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3ABC26A8
+[LOG] SoundI::getSubSound                      : sound 000001AA29646088.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000001AA29645ED8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000001AA3ABC2348.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000001AA3ABC24F8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000001AA3ABC26A8.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A123B78 : node = 000001AA472E0710
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A123B78
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E0828
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A123B78
+[LOG] SoundI::getSubSound                      : sound 000001AA3A123B78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3ABC7048)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA472E1430
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E1548
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA252077A8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA32F4DFD8)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A123B78 : node = 000001AA472E1AC0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A123B78
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E1BD8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A123B78
+[LOG] SoundI::getSubSound                      : sound 000001AA3A123B78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA25209008)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA472E1430
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E1548
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA252077A8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA32F4DFD8)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A123B78 : node = 000001AA472E0080
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A123B78
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E0198
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A123B78
+[LOG] SoundI::getSubSound                      : sound 000001AA3A123B78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3ABC6EA8)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SystemI::createSound                     : filename = Assets\StreamingAssets/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AA3A124088 : node = 000001AA472E0C50
+[LOG] SystemI::createSound                     : add node to async list : head = 000001AA3ABC6B18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AA3A124088
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\StreamingAssets/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3297408
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA472E0D68
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='396470__kev-durr__electric-sparks', format=2, channels=2, frequency=48000, lengthbytes=237792, lengthpcm=566400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.940613.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AA3A124088
+[LOG] SoundI::getSubSound                      : sound 000001AA3A124088.  Subsound index 0 / 1
+[LOG] SoundI::release                          :  (000001AA24ECB8B8)
+[LOG] SoundI::release                          :     SmallWoodFoot (000001AA29A39AF8)
+[LOG] SoundI::release                          :  (000001AA24EC9D68)
+[LOG] SoundI::release                          :     SmallWoodFoot_1 (000001AA25206428)
+[LOG] SoundI::release                          :  (000001AA24ECB748)
+[LOG] SoundI::release                          :     SmallWoodFoot_2 (000001AA29A37738)
+[LOG] SoundI::release                          :  (000001AA7D189968)
+[LOG] SoundI::release                          :     SmallWoodFoot_3 (000001AA29A39478)
+[LOG] SoundI::release                          :  (000001AA3A17CD78)
+[LOG] SoundI::release                          :     SmallCarpetFoot (000001AA29A392D8)
+[LOG] SoundI::release                          :  (000001AA24EC9ED8)
+[LOG] SoundI::release                          :     SmallCarpetFoot_1 (000001AA252099C8)
+[LOG] SoundI::release                          :  (000001AA24EC9A88)
+[LOG] SoundI::release                          :     SmallCarpetFoot_2 (000001AA29A378D8)
+[LOG] SoundI::release                          :  (000001AA7D18A208)
+[LOG] SoundI::release                          :     SmallCarpetFoot_3 (000001AA29A37598)
+[LOG] SoundI::release                          :  (000001AA24ECA778)
+[LOG] SoundI::release                          :     BigCarpetFoot (000001AA252065C8)
+[LOG] SoundI::release                          :  (000001AA24ECAEA8)
+[LOG] SoundI::release                          :     BigCarpetFoot_2 (000001AA29A37A78)
+[LOG] SoundI::release                          :  (000001AA24ECB5D8)
+[LOG] SoundI::release                          :     BigCarpetFoot_3 (000001AA29A39958)
+[LOG] SoundI::release                          :  (000001AA24ECAA58)
+[LOG] SoundI::release                          :     BigCarpetFoot_4 (000001AA25207C88)
+[LOG] SoundI::release                          :  (000001AA3A17CC08)
+[LOG] SoundI::release                          :     BigWoodFoot (000001AA29A36A38)
+[LOG] SoundI::release                          :  (000001AA3A17D338)
+[LOG] SoundI::release                          :     BigWoodFoot_1 (000001AA29A37258)
+[LOG] SoundI::release                          :  (000001AA3A17D4A8)
+[LOG] SoundI::release                          :     BigWoodFoot_2 (000001AA29A373F8)
+[LOG] SoundI::release                          :  (000001AA24ECA8E8)
+[LOG] SoundI::release                          :     BigWoodFoot_3 (000001AA29A39618)
+[LOG] SoundI::release                          :  (000001AA24EC9BF8)
+[LOG] SoundI::release                          :     BigWoodFoot_4 (000001AA29A36078)
+[LOG] SoundI::release                          :  (000001AA23A918C8)
+[LOG] SoundI::release                          :     Lift02 (000001AA40A130A8)
+[LOG] SoundI::release                          :  (000001AA23A91BA8)
+[LOG] SoundI::release                          :     Lift01 (000001AA40A13DA8)
+[LOG] SoundI::release                          :  (000001AA23A91FF8)
+[LOG] SoundI::release                          :     Lift03 (000001AA40A133E8)
+[LOG] SoundI::release                          :  (000001AA24ECABC8)
+[LOG] SoundI::release                          :     firework (000001AA25206AA8)
+[LOG] SoundI::release                          :  (000001AA472E2528)
+[LOG] SoundI::release                          :     Guit lead 3 (000001AA0C136F58)
+[LOG] SoundI::release                          :  (000001AA472E1F68)
+[LOG] SoundI::release                          :     Guit lead 2 (000001AA23F52888)
+[LOG] SoundI::release                          :  (000001AA472E2808)
+[LOG] SoundI::release                          :     Accordion 3 (000001AA23F52BC8)
+[LOG] SoundI::release                          :  (000001AA472E2248)
+[LOG] SoundI::release                          :     Accordion 1 (000001AA23F52A28)
+[LOG] SoundI::release                          :  (000001AA3AC89A78)
+[LOG] SoundI::release                          :     Accordion 4 (000001AA23F52208)
+[LOG] SoundI::release                          :  (000001AA472E23B8)
+[LOG] SoundI::release                          :     Guit lead 1 (000001AA0C137298)
+[LOG] SoundI::release                          :  (000001AA472E2698)
+[LOG] SoundI::release                          :     Accordion 2 (000001AA23F52548)
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A124088)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA25B4F558)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3A124238)
+[LOG] SoundI::release                          : 451211__kyles__skyline-distant-highway-far-haze-from-campground-night2 (000001AA29646088)
+[LOG] SoundI::release                          :     451211__kyles__skyline-distant-highway-far-haze-from-campground-night2 (000001AA25207E28)
+[LOG] SoundI::release                          :     451211__kyles__skyline-distant-highway-far-haze-from-campground-night2 (000001AA46A0D658)
+[LOG] SoundI::release                          : High Piano (000001AA3ABC26A8)
+[LOG] SoundI::release                          :     High Piano (000001AA25209B68)
+[LOG] SoundI::release                          :     High Piano (000001AA0C151AD8)
+[LOG] SoundI::release                          : Guit finger (000001AA3ABC24F8)
+[LOG] SoundI::release                          :     Guit finger (000001AA25207608)
+[LOG] SoundI::release                          :     Guit finger (000001AA0C151928)
+[LOG] SoundI::release                          : Low Piano (000001AA3ABC2348)
+[LOG] SoundI::release                          :     Low Piano (000001AA25209828)
+[LOG] SoundI::release                          :     Low Piano (000001AA46A0C728)
+[LOG] SoundI::release                          : Piano Melody (000001AA29645ED8)
+[LOG] SoundI::release                          :     Piano Melody (000001AA25206DE8)
+[LOG] SoundI::release                          :     Piano Melody (000001AA46A0C3C8)
+[LOG] SoundI::release                          : 396470__kev-durr__electric-sparks (000001AA3A123B78)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA3ABC7048)
+[LOG] SoundI::release                          :     396470__kev-durr__electric-sparks (000001AA32F4DFD8)
+[LOG] SoundI::release                          :  (000001AA472E1DF8)
+[LOG] SoundI::release                          :     182474__keweldog__car-horn (000001AA23F526E8)
+[LOG] SoundI::release                          :  (000001AA23DECB58)
+[LOG] SoundI::release                          :     179867__toiletrolltube__car-horn-1-3-11 (000001AA23F52068)
+[LOG] SoundI::release                          :  (000001AA472E2978)
+[LOG] SoundI::release                          :     83465__bsumusictech__car-horn (000001AA23F51EC8)
+[LOG] SoundI::release                          :  (000001AA2990DC28)
+[LOG] SoundI::release                          :     spark (000001AA40A13248)
+[LOG] SoundI::release                          :  (000001AA2990D668)
+[LOG] SoundI::release                          :     spark_2 (000001AA40A13C08)
+[LOG] SoundI::release                          :  (000001AA2990D388)
+[LOG] SoundI::release                          :     spark_1 (000001AA40A13A68)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
+[LOG] SystemI::close                           : Closed.
