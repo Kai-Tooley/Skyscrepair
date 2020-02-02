@@ -6,6 +6,7 @@ public class Elevator : MonoBehaviour
 {
     [Tooltip("This is used to see if the elevator is active")]
     public bool isActive = false;
+    private bool isopen = false;
     [Tooltip("This is pointing to the exit on the next level")]
     public Transform elevatorExit;
 
@@ -18,14 +19,19 @@ public class Elevator : MonoBehaviour
 
     public GameObject elevatorObj;
 
+    [FMODUnity.EventRef]
+    public string elevatorEvent = "";
+    FMOD.Studio.EventInstance elevator;
+
     Light elevatorLight;
     GameObject cameraMain;
 
+    GameManager manager;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
     }
 
     private void Awake()
@@ -51,11 +57,20 @@ public class Elevator : MonoBehaviour
             if (areItemsRepaired.Contains(!false))
             {
                 isActive = true;
+
             }
         }
 
         if (isActive)
         {
+            if (!isopen)
+            {
+                elevator = FMODUnity.RuntimeManager.CreateInstance(elevatorEvent);
+                elevator.setParameterValue("openclose", 0.0f);
+                elevator.start();
+                elevator.release();
+                isopen = true;
+            }
             elevatorLight.color = Color.green;
         }
     }
@@ -69,8 +84,14 @@ public class Elevator : MonoBehaviour
             foreach (GameObject item in players)
             {
                 item.transform.position = elevatorExit.position;
-                GameObject.Find("TiltController").GetComponent<TowerTilt>().IncreaseLevel();
+                //GameObject.Find("TiltController").GetComponent<TowerTilt>().IncreaseLevel();
             }
+
+            elevator = FMODUnity.RuntimeManager.CreateInstance(elevatorEvent);
+            elevator.setParameterValue("openclose", 1.0f);
+            elevator.start();
+            elevator.release();
+            manager.level += 1;
 
             elevatorObj.transform.Translate(Vector3.up * 8);
             //cameraMain.transform.Translate(Vector3.up * camStep);

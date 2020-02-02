@@ -187,6 +187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 810411920}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -431,6 +433,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 1274402800}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -585,52 +589,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7083325831657665827, guid: 6b43fc959ff43ab4b883d303da29d63b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7083325831657665827, guid: 6b43fc959ff43ab4b883d303da29d63b,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7083325831657665826, guid: 6b43fc959ff43ab4b883d303da29d63b,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -3369849258691889696, guid: 9be9cd35046970e428fe9cdffaf57f87,
-        type: 3}
-    - target: {fileID: -2356451110452198917, guid: 6b43fc959ff43ab4b883d303da29d63b,
-        type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 815037329}
-    - target: {fileID: 4065339738819385019, guid: 6b43fc959ff43ab4b883d303da29d63b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4065339738819385019, guid: 6b43fc959ff43ab4b883d303da29d63b,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 147002260592615659, guid: 6b43fc959ff43ab4b883d303da29d63b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591627877569303016, guid: 6b43fc959ff43ab4b883d303da29d63b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903915973231598549, guid: 6b43fc959ff43ab4b883d303da29d63b,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b43fc959ff43ab4b883d303da29d63b, type: 3}
 --- !u!1 &313942005
@@ -763,6 +721,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 1244361238}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -824,9 +784,9 @@ GameObject:
   m_Component:
   - component: {fileID: 382469559}
   - component: {fileID: 382469558}
-  - component: {fileID: 382469557}
   - component: {fileID: 382469561}
   - component: {fileID: 382469560}
+  - component: {fileID: 382469557}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -834,14 +794,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &382469557
-AudioListener:
+--- !u!114 &382469557
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382469556}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
 --- !u!20 &382469558
 Camera:
   m_ObjectHideFlags: 0
@@ -964,6 +929,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 1828436153}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -1751,6 +1718,8 @@ MonoBehaviour:
   parts:
   - {fileID: 61319311}
   - {fileID: 1724288525}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -1865,52 +1834,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &815037327 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7083325831657665830, guid: 6b43fc959ff43ab4b883d303da29d63b,
-    type: 3}
-  m_PrefabInstance: {fileID: 207160696}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &815037328
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815037327}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!95 &815037329
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815037327}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8fee0c5e8b438a94c9411c78677243ae, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &817880715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4363000815121756, guid: 61bb62591466c3649bdf4905822d72f6,
@@ -2003,17 +1926,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  CollisionTag: 
+  Event: event:/Sparking
+  PlayEvent: 1
+  StopEvent: 5
+  CollisionTag: Player
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!4 &924647300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
@@ -2054,6 +1977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 1696477562}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -2575,6 +2500,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 358093826}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -2724,6 +2651,8 @@ MonoBehaviour:
   parts:
   - {fileID: 165654222}
   - {fileID: 1965305778}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -3746,6 +3675,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 925646539}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -3924,6 +3855,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 810411920}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -4298,6 +4231,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 481935723}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0
@@ -4614,6 +4549,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 1274402800}
+  materialRepairEvent: event:/Material/Metal
+  material: 0
   repaired: 0
   pos: {x: 0, y: 0}
   rotation: 0

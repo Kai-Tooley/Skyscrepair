@@ -5,10 +5,24 @@ using UnityEngine.InputSystem;
 
 public class ItemPickUp : MonoBehaviour
 {
+    [FMODUnity.EventRef]
+    public string playerWalkEvent = "";
+    FMOD.Studio.EventInstance playerWalk;
+
+    [FMODUnity.EventRef]
+    public string playerLiftEvent = "";
+
+    [FMODUnity.EventRef]
+    public string playerDropEvent = "";
+
+    [FMODUnity.EventRef]
+    public string itemPickUpEvent = "";
+    FMOD.Studio.EventInstance itemPickUp;
+
     public int playerNumber;
     GameObject otherPlayer;
     GameObject[] players;
-    
+
     public Animator animator;
     private ItemEffects effects;
     //point at which to hold the item
@@ -75,6 +89,15 @@ public class ItemPickUp : MonoBehaviour
         //        nearest = Vector2.Distance(obj.transform.position, gameObject.transform.position);
         //    }
         //}
+    }
+
+    private void OnDestroy()
+    {
+        playerWalk.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        playerWalk.release();
+
+        itemPickUp.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        itemPickUp.release();
     }
 
     void ItemButtonAction()
@@ -151,6 +174,7 @@ public class ItemPickUp : MonoBehaviour
     IEnumerator PickUpOverTime(GameObject item)
     {
         animator.SetBool("holding", true);
+        FMODUnity.RuntimeManager.PlayOneShot(playerLiftEvent);
         pickingUpItem = true;
         yield return new WaitForSeconds(.5f);
         PickUpItem(item);
@@ -200,6 +224,13 @@ public class ItemPickUp : MonoBehaviour
         droppingItem = true;
         animator.SetFloat("dropping", -1f);
 
+        //play Audio player drog grunt & droped object clatter
+        FMODUnity.RuntimeManager.PlayOneShot(playerDropEvent);
+        itemPickUp = FMODUnity.RuntimeManager.CreateInstance(itemPickUpEvent);
+        itemPickUp.setParameterValue("Material", (float)heldItem.GetComponent<objectRepair>().material);
+        itemPickUp.start();
+        itemPickUp.release();
+
         //start arm movement
         targetArmPosition = armDefaultPosition;
         if (armMovement != null)
@@ -237,5 +268,13 @@ public class ItemPickUp : MonoBehaviour
         {
             PickUp();
         }
+    }
+
+    public void playFootstepAudio()
+    {
+        playerWalk = FMODUnity.RuntimeManager.CreateInstance(playerWalkEvent);
+        playerWalk.setParameterValue("Surface", 1.5f);
+        playerWalk.start();
+        playerWalk.release();
     }
 }

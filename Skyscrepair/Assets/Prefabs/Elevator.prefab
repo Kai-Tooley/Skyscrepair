@@ -144,6 +144,8 @@ MonoBehaviour:
   - {fileID: 0}
   areItemsRepaired: 
   camStep: 7
+  elevatorObj: {fileID: 0}
+  elevatorEvent: event:/Lift
 --- !u!61 &9095543181095069738
 BoxCollider2D:
   m_ObjectHideFlags: 0

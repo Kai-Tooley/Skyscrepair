@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+
         input = GetComponent<PlayerInput>();
         if (input.actions != inputSet)
         {
@@ -38,6 +39,7 @@ public class PlayerController : MonoBehaviour
 
     private void Move(Vector2 direction)
     {
+
         if (direction.sqrMagnitude < 0.01)
         {
             return;

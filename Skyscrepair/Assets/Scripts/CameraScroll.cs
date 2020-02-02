@@ -17,6 +17,9 @@ public class CameraScroll : MonoBehaviour
     public float tiltcameraShake;
     private ItemEffects effects;
 
+    [FMODUnity.EventRef]
+    public string demolitionEvent = "";
+
     private bool gameOver = false;
     // Start is called before the first frame update
     void Start()
@@ -78,6 +81,7 @@ public class CameraScroll : MonoBehaviour
     {
         float startTime = Time.time;
         Instantiate(deathEffect, player.transform.position, Quaternion.identity);
+        FMODUnity.RuntimeManager.PlayOneShot(demolitionEvent);
         while (Time.time-startTime < 2f)
         {
             CameraShake(cameraShakeOnDeath);
