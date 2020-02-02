@@ -92,5 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6d5253ad649ca640a37aee961e127a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  atmosphearEvent: 'event:/Atmos '
+  musicEvent: event:/Music
+  level: 0
   inputActions: {fileID: -944628639613478452, guid: d6cd87247adecff478920af74805533c,
     type: 3}

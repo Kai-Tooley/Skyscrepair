@@ -26,12 +26,12 @@ public class Elevator : MonoBehaviour
     Light elevatorLight;
     GameObject cameraMain;
 
-    Manager manager;
+    GameManager manager;
 
     // Start is called before the first frame update
     void Start()
     {
-        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<Manager>();
+        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
     }
 
     private void Awake()
@@ -84,7 +84,7 @@ public class Elevator : MonoBehaviour
             foreach (GameObject item in players)
             {
                 item.transform.position = elevatorExit.position;
-                GameObject.Find("TiltController").GetComponent<TowerTilt>().IncreaseLevel();
+                //GameObject.Find("TiltController").GetComponent<TowerTilt>().IncreaseLevel();
             }
 
             elevator = FMODUnity.RuntimeManager.CreateInstance(elevatorEvent);

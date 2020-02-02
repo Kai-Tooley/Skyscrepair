@@ -7,11 +7,11 @@ using UnityEngine.EventSystems;
 public class Menu_LevelSelect : MonoBehaviour
 {
 
-    Manager manager;
+    GameManager manager;
 
     private void Start()
     {
-        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<Manager>();
+        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
     }
     // Start is called before the first frame update
     public void OpenLevel(int level_number)
