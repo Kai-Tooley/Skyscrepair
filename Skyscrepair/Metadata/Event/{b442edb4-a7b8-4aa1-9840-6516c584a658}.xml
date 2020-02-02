@@ -59,7 +59,11 @@
             <destination>{e2356479-0929-4719-98fe-69feb71b45d8}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{07f9bef0-be81-44d0-98c1-fbb810eae391}"/>
+    <object class="EventAutomatableProperties" id="{07f9bef0-be81-44d0-98c1-fbb810eae391}">
+        <property name="maxVoices">
+            <value>4</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{0ddc85b7-090b-4f02-b129-eb6e3efdf352}"/>
     <object class="GroupTrack" id="{a10179a6-3086-4623-89bb-f9046aa72067}">
         <relationship name="modules">
@@ -101,9 +105,6 @@
         <property name="length">
             <value>0.98999999999999999</value>
         </property>
-        <property name="looping">
-            <value>true</value>
-        </property>
         <relationship name="sounds">
             <destination>{a028bb71-8e77-42b3-88f7-cad9e98f2931}</destination>
             <destination>{db8c5e06-747f-46cf-b1b8-436051553548}</destination>
@@ -115,9 +116,6 @@
         <property name="start">
             <value>1</value>
         </property>
-        <property name="looping">
-            <value>true</value>
-        </property>
         <relationship name="sounds">
             <destination>{fe76b291-ae04-4a10-980d-0afe08e48250}</destination>
             <destination>{5aed7a23-cd8a-419f-952e-7c32d4875f38}</destination>
@@ -126,6 +124,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{a373e075-0a9b-4b5c-bed0-73e1a94e5da6}">
+        <property name="volume">
+            <value>5</value>
+        </property>
         <property name="name">
             <value>Thin footsteps</value>
         </property>
@@ -143,6 +144,7 @@
         <relationship name="effects">
             <destination>{844d4013-3bfb-4f54-a1b4-7544034bc05a}</destination>
             <destination>{3918fb2f-d7f4-4dc9-9597-aebdf44a5900}</destination>
+            <destination>{91af7de5-bb3f-4b1d-93fa-6ee98c429842}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{bccdcd53-22fa-49b7-a8e5-09bd4ec9076a}"/>
@@ -210,11 +212,13 @@
         <property name="lowGain">
             <value>-9</value>
         </property>
-        <property name="midGain">
-            <value>-2</value>
-        </property>
         <property name="highGain">
-            <value>-6</value>
+            <value>-4.5</value>
+        </property>
+    </object>
+    <object class="DistortionEffect" id="{91af7de5-bb3f-4b1d-93fa-6ee98c429842}">
+        <property name="level">
+            <value>0.800000072</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{b5f1dc49-77a2-4b3a-bf95-1fd1477cfd88}"/>

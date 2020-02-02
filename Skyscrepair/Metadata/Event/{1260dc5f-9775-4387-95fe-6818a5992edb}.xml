@@ -59,7 +59,11 @@
             <destination>{e2356479-0929-4719-98fe-69feb71b45d8}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{1c0e3ea2-6657-46d1-b46d-c36207d14c42}"/>
+    <object class="EventAutomatableProperties" id="{1c0e3ea2-6657-46d1-b46d-c36207d14c42}">
+        <property name="maxVoices">
+            <value>4</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{a3c562bd-8432-417e-8e43-ace8b933b43e}"/>
     <object class="GroupTrack" id="{c045795b-e659-48c8-9a92-3d3fa3636e33}">
         <relationship name="modules">
@@ -101,9 +105,6 @@
         <property name="length">
             <value>0.98999999999999999</value>
         </property>
-        <property name="looping">
-            <value>true</value>
-        </property>
         <relationship name="sounds">
             <destination>{aec6b887-e374-4e78-a251-fb7c551d5770}</destination>
             <destination>{8b6911e7-4187-4298-b0c3-8bee5e1f6559}</destination>
@@ -114,9 +115,6 @@
     <object class="MultiSound" id="{ba8d9592-fd32-43b3-a8e3-f30fe7212125}">
         <property name="start">
             <value>1</value>
-        </property>
-        <property name="looping">
-            <value>true</value>
         </property>
         <relationship name="sounds">
             <destination>{cf4e6bc9-4830-4dde-8423-dbdfd036f5e3}</destination>

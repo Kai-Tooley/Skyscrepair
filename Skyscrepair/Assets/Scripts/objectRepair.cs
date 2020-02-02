@@ -2,9 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public enum Material
+{
+    Metal,
+    Wood,
+    Brick,
+    Chair
+}
+
 public class objectRepair : MonoBehaviour
 {
     public List<GameObject> parts;
+    [FMODUnity.EventRef]
+    public string materialRepairEvent = "";
+    public Material material;
     public bool repaired = false;
     public Vector2 pos;
     public float rotation;
@@ -27,8 +39,6 @@ public class objectRepair : MonoBehaviour
     {
         if (!collision.gameObject.GetComponent<objectRepair>())
             return;
-        //if (order > collision.gameObject.GetComponent<objectRepair>().order)
-        //    return;
 
         foreach (var item in parts)
         {
@@ -41,6 +51,8 @@ public class objectRepair : MonoBehaviour
 
     public void FixParts(GameObject part)
     {
+        ///FMODUnity.RuntimeManager.PlayOneShot(materialRepairEvent);
+
         //play any audio for fixing items
         GameObject parent;
         if (transform.parent == null && part.transform.parent == null)

@@ -51,9 +51,6 @@ public class ItemPickUp : MonoBehaviour
 
     void Start()
     {
-        playerWalk = FMODUnity.RuntimeManager.CreateInstance(playerWalkEvent);
-        itemPickUp = FMODUnity.RuntimeManager.CreateInstance(itemPickUpEvent);
-
         holdingItem = false;
         //effects = GameObject.Find("Effects").GetComponent<ItemEffects>();
         player = gameObject;
@@ -72,13 +69,10 @@ public class ItemPickUp : MonoBehaviour
         if (Mathf.Abs(Input.GetAxis("Horizontal"))>0.1f)
         {
             animator.SetBool("walking", true);
-            playerWalk.start();
-            playerWalk.setParameterValue("Surface", 0.5f);
         }
         else
         {
             animator.SetBool("walking", false);
-            playerWalk.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
 
         //just outputs distance to closest item if you want
@@ -209,9 +203,10 @@ public class ItemPickUp : MonoBehaviour
 
         //play Audio player drog grunt & droped object clatter
         FMODUnity.RuntimeManager.PlayOneShot(playerDropEvent);
+        itemPickUp = FMODUnity.RuntimeManager.CreateInstance(itemPickUpEvent);
         itemPickUp.setParameterValue("Material", (float)heldItem.GetComponent<objectRepair>().material);
         itemPickUp.start();
-        itemPickUp.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        itemPickUp.release();
 
         //start arm movement
         targetArmPosition = armDefaultPosition;
@@ -252,5 +247,13 @@ public class ItemPickUp : MonoBehaviour
         {
             PickUp();
         }
+    }
+
+    public void playFootstepAudio()
+    {
+        playerWalk = FMODUnity.RuntimeManager.CreateInstance(playerWalkEvent);
+        playerWalk.setParameterValue("Surface", 1.5f);
+        playerWalk.start();
+        playerWalk.release();
     }
 }
