@@ -433,7 +433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 1274402800}
-  materialRepairEvent: event:/Material/Metal
+  materialRepairEvent: event:/Material/Wood
   material: 0
   repaired: 0
   pos: {x: 0, y: 0}
@@ -2016,7 +2016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 1696477562}
-  materialRepairEvent: event:/Material/Metal
+  materialRepairEvent: event:/Material/Chair
   material: 0
   repaired: 0
   pos: {x: 0, y: 0}
@@ -2678,7 +2678,7 @@ MonoBehaviour:
   parts:
   - {fileID: 165654222}
   - {fileID: 1965305778}
-  materialRepairEvent: event:/Material/Metal
+  materialRepairEvent: event:/Material/Wood
   material: 0
   repaired: 0
   pos: {x: 0, y: 0}
@@ -3702,7 +3702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 925646539}
-  materialRepairEvent: event:/Material/Metal
+  materialRepairEvent: event:/Material/Chair
   material: 0
   repaired: 0
   pos: {x: 0, y: 0}
@@ -4576,7 +4576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parts:
   - {fileID: 1274402800}
-  materialRepairEvent: event:/Material/Metal
+  materialRepairEvent: event:/Material/Wood
   material: 0
   repaired: 0
   pos: {x: 0, y: 0}
