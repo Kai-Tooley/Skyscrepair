@@ -401,6 +401,7 @@ MonoBehaviour:
     type: 3}
   m_Look: {x: 0, y: 0}
   m_Move: {x: 0, y: 0}
+  weight: 3
 --- !u!114 &-2356451110452198917
 MonoBehaviour:
   m_ObjectHideFlags: 0

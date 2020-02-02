@@ -84,6 +84,7 @@ public class Elevator : MonoBehaviour
             foreach (GameObject item in players)
             {
                 item.transform.position = elevatorExit.position;
+                GameObject.Find("TiltController").GetComponent<TowerTilt>().IncreaseLevel();
             }
 
             elevator = FMODUnity.RuntimeManager.CreateInstance(elevatorEvent);
