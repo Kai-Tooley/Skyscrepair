@@ -6,6 +6,7 @@ public class Elevator : MonoBehaviour
 {
     [Tooltip("This is used to see if the elevator is active")]
     public bool isActive = false;
+    private bool isopen = false;
     [Tooltip("This is pointing to the exit on the next level")]
     public Transform elevatorExit;
 
@@ -17,6 +18,10 @@ public class Elevator : MonoBehaviour
     public float camStep = 7f;
 
     public GameObject elevatorObj;
+
+    [FMODUnity.EventRef]
+    public string elevatorEvent = "";
+    FMOD.Studio.EventInstance elevator;
 
     Light elevatorLight;
     GameObject cameraMain;
@@ -52,11 +57,20 @@ public class Elevator : MonoBehaviour
             if (areItemsRepaired.Contains(!false))
             {
                 isActive = true;
+
             }
         }
 
         if (isActive)
         {
+            if (!isopen)
+            {
+                elevator = FMODUnity.RuntimeManager.CreateInstance(elevatorEvent);
+                elevator.setParameterValue("openclose", 0.0f);
+                elevator.start();
+                elevator.release();
+                isopen = true;
+            }
             elevatorLight.color = Color.green;
         }
     }
@@ -72,6 +86,10 @@ public class Elevator : MonoBehaviour
                 item.transform.position = elevatorExit.position;
             }
 
+            elevator = FMODUnity.RuntimeManager.CreateInstance(elevatorEvent);
+            elevator.setParameterValue("openclose", 1.0f);
+            elevator.start();
+            elevator.release();
             manager.level += 1;
 
             elevatorObj.transform.Translate(Vector3.up * 8);
