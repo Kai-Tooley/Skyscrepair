@@ -8,9 +8,12 @@ public class TowerTilt : MonoBehaviour
     public GameObject[] players;
     public GameObject[] tiltObjects;
     int numberOfPlayers;
+
+    GameManager manager;
     // Start is called before the first frame update
     void Start()
     {
+        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         players = GameObject.FindGameObjectsWithTag("Player");
         numberOfPlayers = players.Length;
     }
@@ -46,6 +49,7 @@ public class TowerTilt : MonoBehaviour
         float tiltAngle = -weightedAverage;
         var targetPostiion = transform.eulerAngles;
         targetPostiion.z = tiltAngle;
+        manager.tilt = tiltAngle/5;
         transform.eulerAngles = targetPostiion;
     }
 

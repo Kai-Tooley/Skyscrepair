@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     FMOD.Studio.EventInstance music;
 
     public int level = 0;
+    public float tilt = 0;
 
     public InputActionAsset inputActions;
     // Start is called before the first frame update
@@ -33,7 +34,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         music.setParameterValue("Level", (float)level);
-        music.setParameterValue("Tilt", 0.0f);
+        music.setParameterValue("Tilt", tilt);
     }
 
     private void OnDestroy()
