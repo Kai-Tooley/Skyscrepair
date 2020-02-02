@@ -132,7 +132,7 @@
     </object>
     <object class="EventMixerGroup" id="{60a37681-b84f-4f23-bf25-ed662391fc23}">
         <property name="volume">
-            <value>-3.5</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -194,9 +194,6 @@
     <object class="MixerBusPanner" id="{80c666e6-2f62-441c-b324-1f508bf769a0}"/>
     <object class="MixerBusFader" id="{140999b7-cc84-4263-99ce-71a3ddfc53e5}"/>
     <object class="MultiSound" id="{c6d6737f-9a33-45ec-8a73-b7101a124c89}">
-        <property name="playlistMode">
-            <value>0</value>
-        </property>
         <relationship name="sounds">
             <destination>{67f999bd-831f-40aa-b407-77a9f7f3aca3}</destination>
             <destination>{6621fb27-dcd9-4976-9ed9-43d8f54f84a0}</destination>
