@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: d3c65cdde11f85341a2ff5aca34d0e24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 556571770271191151
+    second: Fat Standing Idle_Sprite Sheet_2_0
+  - first:
+      213: -8886400609711450309
+    second: Fat Standing Idle_Sprite Sheet_2_1
+  - first:
+      213: -3129928960542642074
+    second: Fat Standing Idle_Sprite Sheet_2_2
+  - first:
+      213: 2262578633878394676
+    second: Fat Standing Idle_Sprite Sheet_2_3
+  - first:
+      213: -2445350467735431680
+    second: Fat Standing Idle_Sprite Sheet_2_4
+  - first:
+      213: -1441090104078779907
+    second: Fat Standing Idle_Sprite Sheet_2_5
+  - first:
+      213: -1239243134506938719
+    second: Fat Standing Idle_Sprite Sheet_2_6
+  - first:
+      213: -4858239027064561623
+    second: Fat Standing Idle_Sprite Sheet_2_7
+  - first:
+      213: 5750661631164987861
+    second: Fat Standing Idle_Sprite Sheet_2_8
+  - first:
+      213: 1237080094979882353
+    second: Fat Standing Idle_Sprite Sheet_2_9
+  - first:
+      213: -6598576268242671931
+    second: Fat Standing Idle_Sprite Sheet_2_10
+  - first:
+      213: 2907616729114501530
+    second: Fat Standing Idle_Sprite Sheet_2_11
+  - first:
+      213: -1723182063640881589
+    second: Fat Standing Idle_Sprite Sheet_2_12
+  - first:
+      213: -2645645521947753900
+    second: Fat Standing Idle_Sprite Sheet_2_13
+  - first:
+      213: 5897298483561114723
+    second: Fat Standing Idle_Sprite Sheet_2_14
+  - first:
+      213: -2738653312069011800
+    second: Fat Standing Idle_Sprite Sheet_2_15
+  - first:
+      213: -4352989915154604168
+    second: Fat Standing Idle_Sprite Sheet_2_16
+  - first:
+      213: -8435115412611326294
+    second: Fat Standing Idle_Sprite Sheet_2_17
+  - first:
+      213: 5522517226235393676
+    second: Fat Standing Idle_Sprite Sheet_2_18
+  - first:
+      213: 3348060599307002900
+    second: Fat Standing Idle_Sprite Sheet_2_19
+  - first:
+      213: 6639329833915957825
+    second: Fat Standing Idle_Sprite Sheet_2_20
+  - first:
+      213: -8261377810218325760
+    second: Fat Standing Idle_Sprite Sheet_2_21
+  - first:
+      213: 9167299908296847718
+    second: Fat Standing Idle_Sprite Sheet_2_22
+  - first:
+      213: -8679092751806002783
+    second: Fat Standing Idle_Sprite Sheet_2_23
+  - first:
+      213: 9172990014210855345
+    second: Fat Standing Idle_Sprite Sheet_2_24
+  - first:
+      213: -6216291906097869464
+    second: Fat Standing Idle_Sprite Sheet_2_25
+  - first:
+      213: -3952334599139743253
+    second: Fat Standing Idle_Sprite Sheet_2_26
+  - first:
+      213: -4038371066932763995
+    second: Fat Standing Idle_Sprite Sheet_2_27
+  - first:
+      213: -7257596673931532485
+    second: Fat Standing Idle_Sprite Sheet_2_28
+  - first:
+      213: 7707318128482370278
+    second: Fat Standing Idle_Sprite Sheet_2_29
+  - first:
+      213: 1539816086100613086
+    second: Fat Standing Idle_Sprite Sheet_2_30
+  - first:
+      213: 2036895675193922490
+    second: Fat Standing Idle_Sprite Sheet_2_31
+  - first:
+      213: -6279036158414936606
+    second: Fat Standing Idle_Sprite Sheet_2_32
+  - first:
+      213: -2514591894898264428
+    second: Fat Standing Idle_Sprite Sheet_2_33
+  - first:
+      213: -2743394763373019311
+    second: Fat Standing Idle_Sprite Sheet_2_34
+  - first:
+      213: 575113219597134369
+    second: Fat Standing Idle_Sprite Sheet_2_35
+  - first:
+      213: -8287914587008217176
+    second: Fat Standing Idle_Sprite Sheet_2_36
+  - first:
+      213: -3963605689826991554
+    second: Fat Standing Idle_Sprite Sheet_2_37
+  - first:
+      213: -6464007923430429723
+    second: Fat Standing Idle_Sprite Sheet_2_38
+  - first:
+      213: 6710465511644584086
+    second: Fat Standing Idle_Sprite Sheet_2_39
+  - first:
+      213: 1514540700555200947
+    second: Fat Standing Idle_Sprite Sheet_2_40
+  - first:
+      213: 7726845390468169011
+    second: Fat Standing Idle_Sprite Sheet_2_41
+  - first:
+      213: -8700455679819711304
+    second: Fat Standing Idle_Sprite Sheet_2_42
+  - first:
+      213: 1416978526998048668
+    second: Fat Standing Idle_Sprite Sheet_2_43
+  - first:
+      213: 5611603410878362648
+    second: Fat Standing Idle_Sprite Sheet_2_44
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f713b90a0421e4549829917ae0eb5872
+      internalID: 556571770271191151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd728b48eee48c4f96566c7c63f6309
+      internalID: -8886400609711450309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3289c338c0ac949b74f7157af0ca54
+      internalID: -3129928960542642074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0143a906c109428498c6c1c4af98c1ca
+      internalID: 2262578633878394676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_4
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1649dd0d781aee40906c0bbceba6439
+      internalID: -2445350467735431680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_5
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27cc8b3866f2ec4fb10036e4c12cf9b
+      internalID: -1441090104078779907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_6
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54b8f744aab55946b16578f12daaabf
+      internalID: -1239243134506938719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_7
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2685812179f1bf4882492aeed45b36e
+      internalID: -4858239027064561623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9511751902112843b5625ebeb39d8be
+      internalID: 5750661631164987861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cc3afddbd6bbc41bee43bf7d381f2e
+      internalID: 1237080094979882353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c4ae60282e87c46971dcfc3986163c
+      internalID: -6598576268242671931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9120ee8b551a0b4387b480211a847c4
+      internalID: 2907616729114501530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_12
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c57c3b25dc1094586b62102a9e7c39
+      internalID: -1723182063640881589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_13
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c379af5934e4ec245af4d901828474f2
+      internalID: -2645645521947753900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_14
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d89b0e401cbf4446b2c9e7d4d071fe0
+      internalID: 5897298483561114723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755209f3403ceee4bb4656490f06784e
+      internalID: -2738653312069011800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae741767616ef9459c6a6c857a5b530
+      internalID: -4352989915154604168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b218334e61b063449aeb971102ac7a7d
+      internalID: -8435115412611326294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6df638e0e29fb54d9397561eaa525f5
+      internalID: 5522517226235393676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184bf5fa4d575fd4ca635b1a19b7d5f2
+      internalID: 3348060599307002900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_20
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd24d96f08e20b4aaedc86dca15ba17
+      internalID: 6639329833915957825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_21
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0e3a46acb6a37438ba685fb3125e4d
+      internalID: -8261377810218325760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7530f78ff555bcd47bbb682a776df0f9
+      internalID: 9167299908296847718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_23
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44f3c06f1e438f4caa6fd5c8e6c3e5e
+      internalID: -8679092751806002783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaa764bc872cc74b80b533a1e08849c
+      internalID: 9172990014210855345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a62c3c4998fb1d47b46d5ba60d061ed
+      internalID: -6216291906097869464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e0cf495c890eb47aa3319644685cfd
+      internalID: -3952334599139743253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867cded0c8600bc4f9c822925a96e372
+      internalID: -4038371066932763995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_28
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed56f0d69047394e8aab3957fbe62fe
+      internalID: -7257596673931532485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_29
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfe4bb08b98d4b4383a7a9b0abcf60b
+      internalID: 7707318128482370278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_30
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44eca8fceb0c624bad8a01f0df364a9
+      internalID: 1539816086100613086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_31
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2b34d18916bcd42a548f8c1f017dc0
+      internalID: 2036895675193922490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bb9f40f9b12e94a85763296d8ab135
+      internalID: -6279036158414936606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31bcb15409157d4e811b3c0a3a746fe
+      internalID: -2514591894898264428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f166a7f7ad17e4a809cafdca9943f5
+      internalID: -2743394763373019311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_35
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b990f0dbf85f34c45bb110f7ecef2b07
+      internalID: 575113219597134369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_36
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a090c534d3411943b3e048f77e361cd
+      internalID: -8287914587008217176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_37
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e00f5fd7fee90f4584b28a5ce8dcbf4
+      internalID: -3963605689826991554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_38
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28003e077555454abeae3fc0b9b400c
+      internalID: -6464007923430429723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_39
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2be347985d47d746a9811adb4bea17b
+      internalID: 6710465511644584086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3467d4ce39324c941bb1b0cc79acb9ef
+      internalID: 1514540700555200947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dd01794a7e57e43a2ed15c60659874
+      internalID: 7726845390468169011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_42
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6ff43291285c0419e2f5cb414b7812
+      internalID: -8700455679819711304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_43
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a38667f9944fb24f8e34c671ba53d97
+      internalID: 1416978526998048668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat Standing Idle_Sprite Sheet_2_44
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38669d7f5d339f440a6afa898a21fc3e
+      internalID: 5611603410878362648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

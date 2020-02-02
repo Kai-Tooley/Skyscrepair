@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: 9e952743de1c95540bf1271bdf53296d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 284722119722231981
+    second: Tall Standing Idle_ Sprite Sheet_2_0
+  - first:
+      213: -5144693084766739645
+    second: Tall Standing Idle_ Sprite Sheet_2_1
+  - first:
+      213: 5712962208235234741
+    second: Tall Standing Idle_ Sprite Sheet_2_2
+  - first:
+      213: 4517261850666940673
+    second: Tall Standing Idle_ Sprite Sheet_2_3
+  - first:
+      213: -6786055300013650181
+    second: Tall Standing Idle_ Sprite Sheet_2_4
+  - first:
+      213: -8501111499302484475
+    second: Tall Standing Idle_ Sprite Sheet_2_5
+  - first:
+      213: 3937006874571786965
+    second: Tall Standing Idle_ Sprite Sheet_2_6
+  - first:
+      213: -5897519978057407087
+    second: Tall Standing Idle_ Sprite Sheet_2_7
+  - first:
+      213: -1025613476689909139
+    second: Tall Standing Idle_ Sprite Sheet_2_8
+  - first:
+      213: 2051118930117404216
+    second: Tall Standing Idle_ Sprite Sheet_2_9
+  - first:
+      213: 1472836899261713092
+    second: Tall Standing Idle_ Sprite Sheet_2_10
+  - first:
+      213: -2328909527395273206
+    second: Tall Standing Idle_ Sprite Sheet_2_11
+  - first:
+      213: 8052720581988894054
+    second: Tall Standing Idle_ Sprite Sheet_2_12
+  - first:
+      213: -1081162558324000463
+    second: Tall Standing Idle_ Sprite Sheet_2_13
+  - first:
+      213: -7636355050246386219
+    second: Tall Standing Idle_ Sprite Sheet_2_14
+  - first:
+      213: -5177259847828240457
+    second: Tall Standing Idle_ Sprite Sheet_2_15
+  - first:
+      213: -2426127629317055739
+    second: Tall Standing Idle_ Sprite Sheet_2_16
+  - first:
+      213: -7879330946361165327
+    second: Tall Standing Idle_ Sprite Sheet_2_17
+  - first:
+      213: 472151743153006454
+    second: Tall Standing Idle_ Sprite Sheet_2_18
+  - first:
+      213: -6831678839183220715
+    second: Tall Standing Idle_ Sprite Sheet_2_19
+  - first:
+      213: -7044181692298933312
+    second: Tall Standing Idle_ Sprite Sheet_2_20
+  - first:
+      213: -524961456845778404
+    second: Tall Standing Idle_ Sprite Sheet_2_21
+  - first:
+      213: -195635050508382012
+    second: Tall Standing Idle_ Sprite Sheet_2_22
+  - first:
+      213: 6759663041081372994
+    second: Tall Standing Idle_ Sprite Sheet_2_23
+  - first:
+      213: 2397999751938881562
+    second: Tall Standing Idle_ Sprite Sheet_2_24
+  - first:
+      213: -7364456133828698573
+    second: Tall Standing Idle_ Sprite Sheet_2_25
+  - first:
+      213: -7443353189894979705
+    second: Tall Standing Idle_ Sprite Sheet_2_26
+  - first:
+      213: 7336129022928309421
+    second: Tall Standing Idle_ Sprite Sheet_2_27
+  - first:
+      213: 3696846976742797352
+    second: Tall Standing Idle_ Sprite Sheet_2_28
+  - first:
+      213: 97147586999050190
+    second: Tall Standing Idle_ Sprite Sheet_2_29
+  - first:
+      213: 8898928677542041505
+    second: Tall Standing Idle_ Sprite Sheet_2_30
+  - first:
+      213: -563818397581653607
+    second: Tall Standing Idle_ Sprite Sheet_2_31
+  - first:
+      213: -6955382604763828850
+    second: Tall Standing Idle_ Sprite Sheet_2_32
+  - first:
+      213: 578914337469713993
+    second: Tall Standing Idle_ Sprite Sheet_2_33
+  - first:
+      213: -7879740295123977846
+    second: Tall Standing Idle_ Sprite Sheet_2_34
+  - first:
+      213: -7564912737984924726
+    second: Tall Standing Idle_ Sprite Sheet_2_35
+  - first:
+      213: 3764838515184752755
+    second: Tall Standing Idle_ Sprite Sheet_2_36
+  - first:
+      213: -6580753839650132805
+    second: Tall Standing Idle_ Sprite Sheet_2_37
+  - first:
+      213: -827941043026335983
+    second: Tall Standing Idle_ Sprite Sheet_2_38
+  - first:
+      213: -4518118038666504060
+    second: Tall Standing Idle_ Sprite Sheet_2_39
+  - first:
+      213: 5603974977708371200
+    second: Tall Standing Idle_ Sprite Sheet_2_40
+  - first:
+      213: -523095529485900485
+    second: Tall Standing Idle_ Sprite Sheet_2_41
+  - first:
+      213: -8433726299629242576
+    second: Tall Standing Idle_ Sprite Sheet_2_42
+  - first:
+      213: 8216799101563939963
+    second: Tall Standing Idle_ Sprite Sheet_2_43
+  - first:
+      213: 6874444335010976746
+    second: Tall Standing Idle_ Sprite Sheet_2_44
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edb0f639768efb4e940b22967121ae3
+      internalID: 284722119722231981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962eee5be9ae6fb4ba15c2b437e1a41e
+      internalID: -5144693084766739645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400aca77d87091c49b0142ea0e29910b
+      internalID: 5712962208235234741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7597f53b868e34cb04ff77390d3acc
+      internalID: 4517261850666940673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_4
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f03bd6b48a7d24f824d3d96b4fb4cb
+      internalID: -6786055300013650181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_5
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e450e30a76f7224aa575a8154ad1508
+      internalID: -8501111499302484475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_6
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a67826cb2e8bf44a36016e0bb74131
+      internalID: 3937006874571786965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_7
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480da7fdb55746945b20d38b096c5808
+      internalID: -5897519978057407087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f63d16377c2cf246949896a5e0a16b9
+      internalID: -1025613476689909139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4385961fa5f4f0f4d9f7587be58aaead
+      internalID: 2051118930117404216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6becec1e857064c4e824d11b897c8251
+      internalID: 1472836899261713092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceaa63a957319146afdbe0ccf6a1148
+      internalID: -2328909527395273206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_12
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01500b962374c6e429a39d8b1d116876
+      internalID: 8052720581988894054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_13
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24435625ad6bd5340aa5176449077fd7
+      internalID: -1081162558324000463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_14
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b5e6fe7f11d6641a2b0ea4c415b381
+      internalID: -7636355050246386219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb9aa2c589ad854fbc7d8d22e74d8ac
+      internalID: -5177259847828240457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518c195a946a5434b8361dc20583f830
+      internalID: -2426127629317055739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ef8662ae9a0a848ba04ec58ad28edc
+      internalID: -7879330946361165327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa47d865860b6c41a735a5a300594fa
+      internalID: 472151743153006454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40fa3ce98ed2e64f801ada0c787bcfd
+      internalID: -6831678839183220715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_20
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570714790bb26734595812ed76f8f1cb
+      internalID: -7044181692298933312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_21
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4123ebf8b8d8ccd4d979621676c80491
+      internalID: -524961456845778404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464aa511dacb0be479136fe32df81977
+      internalID: -195635050508382012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_23
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788017fad7d77ac48976acd6f6aecc45
+      internalID: 6759663041081372994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e229b3d4f7fcd1d4284ef88f50536d9d
+      internalID: 2397999751938881562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3013a7a366b71674fab222bd81d7617c
+      internalID: -7364456133828698573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5af47c705c1a043900ee6f3b29b732
+      internalID: -7443353189894979705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7078260a6372a3f49be76ef992e4d56e
+      internalID: 7336129022928309421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_28
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1645f898a69a2344af26904e675f796
+      internalID: 3696846976742797352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_29
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198c6af63da7a7a47bd52668d7ea25cf
+      internalID: 97147586999050190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_30
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce41f1a4a358abb449b8a830091f5106
+      internalID: 8898928677542041505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_31
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813b9e7e207a2764393e4b8d940e968d
+      internalID: -563818397581653607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51a81330563b034c9437ee287fe2067
+      internalID: -6955382604763828850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244a292296e4b494097ab06b408e5ad0
+      internalID: 578914337469713993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeb5788e98c9464d8608716b656b1d2
+      internalID: -7879740295123977846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_35
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eab85329cc44c4699a7f50719feffd
+      internalID: -7564912737984924726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_36
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2e8cff323e9674f8af21f1b0b42ae2
+      internalID: 3764838515184752755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_37
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b927b5cfb6ccb43970ee711859d9e4
+      internalID: -6580753839650132805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_38
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ddcf8cd090e23448b05d33ecd06bc1
+      internalID: -827941043026335983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_39
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5202b6a933d7944396bc1d1e55b7166
+      internalID: -4518118038666504060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a12e081286c39144ba112267fcbafec
+      internalID: 5603974977708371200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cc59e11406b954db0132193fc8d631
+      internalID: -523095529485900485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_42
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715d3b520866af341bee205154220475
+      internalID: -8433726299629242576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_43
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32864c99745219d44bccb8be9616099e
+      internalID: 8216799101563939963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Standing Idle_ Sprite Sheet_2_44
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae98261eb3bcb5d49be355fd5220ab28
+      internalID: 6874444335010976746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

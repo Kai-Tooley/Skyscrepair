@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: bf828418f2cb36645a24e48f4aac7c40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7822626991268215811
+    second: Tall Carrying Idle_Sprite Sheet 2_0
+  - first:
+      213: -5005168211073987521
+    second: Tall Carrying Idle_Sprite Sheet 2_1
+  - first:
+      213: -5288354240474700660
+    second: Tall Carrying Idle_Sprite Sheet 2_2
+  - first:
+      213: 8910519866040426270
+    second: Tall Carrying Idle_Sprite Sheet 2_3
+  - first:
+      213: 5413550445078607003
+    second: Tall Carrying Idle_Sprite Sheet 2_4
+  - first:
+      213: 7000015082828101201
+    second: Tall Carrying Idle_Sprite Sheet 2_5
+  - first:
+      213: 2642384988321466051
+    second: Tall Carrying Idle_Sprite Sheet 2_6
+  - first:
+      213: 5037353834495993067
+    second: Tall Carrying Idle_Sprite Sheet 2_7
+  - first:
+      213: 2596864049341974112
+    second: Tall Carrying Idle_Sprite Sheet 2_8
+  - first:
+      213: -705205062265236863
+    second: Tall Carrying Idle_Sprite Sheet 2_9
+  - first:
+      213: -1319342068737788063
+    second: Tall Carrying Idle_Sprite Sheet 2_10
+  - first:
+      213: -8986412621746743983
+    second: Tall Carrying Idle_Sprite Sheet 2_11
+  - first:
+      213: 1431158582450250979
+    second: Tall Carrying Idle_Sprite Sheet 2_12
+  - first:
+      213: 147643877178500518
+    second: Tall Carrying Idle_Sprite Sheet 2_13
+  - first:
+      213: -3485594283374155931
+    second: Tall Carrying Idle_Sprite Sheet 2_14
+  - first:
+      213: 8150072507171432215
+    second: Tall Carrying Idle_Sprite Sheet 2_15
+  - first:
+      213: 4975640057545206078
+    second: Tall Carrying Idle_Sprite Sheet 2_16
+  - first:
+      213: 4838763366136351010
+    second: Tall Carrying Idle_Sprite Sheet 2_17
+  - first:
+      213: 4941155400385050807
+    second: Tall Carrying Idle_Sprite Sheet 2_18
+  - first:
+      213: 555503371792893112
+    second: Tall Carrying Idle_Sprite Sheet 2_19
+  - first:
+      213: -9048183089880053653
+    second: Tall Carrying Idle_Sprite Sheet 2_20
+  - first:
+      213: -179402036722186373
+    second: Tall Carrying Idle_Sprite Sheet 2_21
+  - first:
+      213: 8042589142992444080
+    second: Tall Carrying Idle_Sprite Sheet 2_22
+  - first:
+      213: 5728609062690876581
+    second: Tall Carrying Idle_Sprite Sheet 2_23
+  - first:
+      213: -1558983029363766709
+    second: Tall Carrying Idle_Sprite Sheet 2_24
+  - first:
+      213: -3046780160378544316
+    second: Tall Carrying Idle_Sprite Sheet 2_25
+  - first:
+      213: 5395696692375372096
+    second: Tall Carrying Idle_Sprite Sheet 2_26
+  - first:
+      213: 6521557714020415523
+    second: Tall Carrying Idle_Sprite Sheet 2_27
+  - first:
+      213: -1983044640601181128
+    second: Tall Carrying Idle_Sprite Sheet 2_28
+  - first:
+      213: 3683021897362162171
+    second: Tall Carrying Idle_Sprite Sheet 2_29
+  - first:
+      213: -5753558433636774406
+    second: Tall Carrying Idle_Sprite Sheet 2_30
+  - first:
+      213: 991525948027629522
+    second: Tall Carrying Idle_Sprite Sheet 2_31
+  - first:
+      213: 5123095898054630289
+    second: Tall Carrying Idle_Sprite Sheet 2_32
+  - first:
+      213: 2459507898858600316
+    second: Tall Carrying Idle_Sprite Sheet 2_33
+  - first:
+      213: 7262200376861076892
+    second: Tall Carrying Idle_Sprite Sheet 2_34
+  - first:
+      213: 8849457119304028647
+    second: Tall Carrying Idle_Sprite Sheet 2_35
+  - first:
+      213: -7361507169979544311
+    second: Tall Carrying Idle_Sprite Sheet 2_36
+  - first:
+      213: 8229333293683169977
+    second: Tall Carrying Idle_Sprite Sheet 2_37
+  - first:
+      213: 710706691173980342
+    second: Tall Carrying Idle_Sprite Sheet 2_38
+  - first:
+      213: 5133860389862627624
+    second: Tall Carrying Idle_Sprite Sheet 2_39
+  - first:
+      213: -472338720179780931
+    second: Tall Carrying Idle_Sprite Sheet 2_40
+  - first:
+      213: 7924896777009399512
+    second: Tall Carrying Idle_Sprite Sheet 2_41
+  - first:
+      213: 3732816130083902952
+    second: Tall Carrying Idle_Sprite Sheet 2_42
+  - first:
+      213: 2841932326468760630
+    second: Tall Carrying Idle_Sprite Sheet 2_43
+  - first:
+      213: 5603259468372671810
+    second: Tall Carrying Idle_Sprite Sheet 2_44
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3708aa2fbe314c459b98ab87a074628
+      internalID: 7822626991268215811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ffabce6349ec34195f781bd59462ab
+      internalID: -5005168211073987521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cba33986919a6d42a1e5dd29e530319
+      internalID: -5288354240474700660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbcfdb00ffc8aa468164c4246476c43
+      internalID: 8910519866040426270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_4
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ab3cbf6140ba44bb21fac3fbae21df
+      internalID: 5413550445078607003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_5
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fe6bc527b2d59488368fe75aedeb72
+      internalID: 7000015082828101201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_6
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca759ea997fcd4b49b862135384f0af5
+      internalID: 2642384988321466051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_7
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 14284
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c5fb21145a5b942b740f2f811d80f0
+      internalID: 5037353834495993067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d8ee372283dc45b7a1b5bed487801
+      internalID: 2596864049341974112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333823faa6caff641b81b9c15b777708
+      internalID: -705205062265236863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e06060a14f06a74d9d06d7e6b893346
+      internalID: -1319342068737788063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3d7a32a9fe4b24b8fde6fdcb4a065b
+      internalID: -8986412621746743983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_12
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cb73302b2340d4d93a50456486007b
+      internalID: 1431158582450250979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_13
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52db7d42d74833842a6a9f8e23c52c6c
+      internalID: 147643877178500518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_14
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd6f83385c927c4a8503fa6116d10df
+      internalID: -3485594283374155931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_15
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 12184
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7621f2a79574c0543a88b2d465b149fa
+      internalID: 8150072507171432215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890721d2ad828d947b96543e545901bf
+      internalID: 4975640057545206078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d0afe0a7fd31b40b930756739682bc
+      internalID: 4838763366136351010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c83aadb7344a04d877d7fae88a5e9f
+      internalID: 4941155400385050807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f784ba4a79bce40bf1ac5f207387b6
+      internalID: 555503371792893112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_20
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf59d3f6554e104e8b50deb5eed71d0
+      internalID: -9048183089880053653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_21
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6c480f1bf09f64f92f402e656cf67d
+      internalID: -179402036722186373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d53baa3472a014893f9cdae73616a8
+      internalID: 8042589142992444080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_23
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 10084
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c935160decee0034ab5a1b233aab86c6
+      internalID: 5728609062690876581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbca9fe1820e024a9bd1e3bed923dba
+      internalID: -1558983029363766709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7835fc1de27b7a246b4a2d146a2f4d2a
+      internalID: -3046780160378544316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfa92f957ac74349b87e9f4e01641e2
+      internalID: 5395696692375372096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c926c15cbb0f45446a83ab1a424fb5a2
+      internalID: 6521557714020415523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_28
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a62c2ed5c6cc7f4ba8b8e087f5f8051
+      internalID: -1983044640601181128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_29
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ecebfd32c469d4eab0554e2ccdaa1a
+      internalID: 3683021897362162171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_30
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d8811c3eab5554d81a53ee249ce442
+      internalID: -5753558433636774406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_31
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 7984
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b98096210c72f4c91fc9b9941791a3
+      internalID: 991525948027629522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264c13c4245958141aba07ae23216b97
+      internalID: 5123095898054630289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dfc14be36ebc342897aa9247fbceb2
+      internalID: 2459507898858600316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfc852c1791b5944acaf7d774ad5794
+      internalID: 7262200376861076892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_35
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d153fa54bbd74419d63c1ecef262e0
+      internalID: 8849457119304028647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_36
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f41b04018ce2564b9afcc5c48ef85f6
+      internalID: -7361507169979544311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_37
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222cf07bddd6624458f20740f4cbbd6a
+      internalID: 8229333293683169977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_38
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa95063e05b8e54785e1fe143d4fb4d
+      internalID: 710706691173980342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_39
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 5884
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be14b88bc62d9324381957b84cf5129f
+      internalID: 5133860389862627624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342e3e3756e2f444a8922bcc395d2107
+      internalID: -472338720179780931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a507622470ac9c4786dc91c8a96479b
+      internalID: 7924896777009399512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_42
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f2b651369491d48b1e23af4bf4b732
+      internalID: 3732816130083902952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_43
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f434c53684071cb48a571b6495279067
+      internalID: 2841932326468760630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tall Carrying Idle_Sprite Sheet 2_44
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 3784
+        width: 2000
+        height: 2100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de19bfdac073364d981add2c06212b8
+      internalID: 5603259468372671810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
