@@ -69,6 +69,7 @@ public class Elevator : MonoBehaviour
             foreach (GameObject item in players)
             {
                 item.transform.position = elevatorExit.position;
+                GameObject.Find("TiltController").GetComponent<TowerTilt>().IncreaseLevel();
             }
 
             elevatorObj.transform.Translate(Vector3.up * 8);
