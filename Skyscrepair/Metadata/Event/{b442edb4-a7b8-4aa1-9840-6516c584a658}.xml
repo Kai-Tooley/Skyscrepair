@@ -85,6 +85,9 @@
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{0cb1d592-fbd5-404d-b231-2c3c030df188}">
+        <property name="volume">
+            <value>-2.5</value>
+        </property>
         <relationship name="effectChain">
             <destination>{1cd57db6-eb70-4e7d-b5ad-19a85791cf92}</destination>
         </relationship>
@@ -124,9 +127,6 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{a373e075-0a9b-4b5c-bed0-73e1a94e5da6}">
-        <property name="volume">
-            <value>5</value>
-        </property>
         <property name="name">
             <value>Thin footsteps</value>
         </property>
@@ -218,7 +218,7 @@
     </object>
     <object class="DistortionEffect" id="{91af7de5-bb3f-4b1d-93fa-6ee98c429842}">
         <property name="level">
-            <value>0.800000072</value>
+            <value>0.600000024</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{b5f1dc49-77a2-4b3a-bf95-1fd1477cfd88}"/>

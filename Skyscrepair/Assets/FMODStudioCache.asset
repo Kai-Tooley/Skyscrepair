@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9208157832242181500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Level
-  Min: 0
-  Max: 7
-  Default: 0
 --- !u!114 &-9128219319743372620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31,12 +15,12 @@ MonoBehaviour:
   Path: event:/Players/Player Pick up
   guid: 651c1d8b0ece6c439ec6313a0ee913c6
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 7696795089644481537}
+  - {fileID: 2867725769535180211}
   MinDistance: 0
   MaxDistance: 0
   Length: 500
@@ -88,7 +72,7 @@ MonoBehaviour:
   Min: -10
   Max: 10
   Default: 0
---- !u!114 &-8638173726392700225
+--- !u!114 &-8676635072564942054
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,9 +84,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Tilt
-  Min: -10
-  Max: 10
+  Name: Level
+  Min: 0
+  Max: 7
   Default: 0
 --- !u!114 &-8593635359234061145
 MonoBehaviour:
@@ -229,7 +213,7 @@ MonoBehaviour:
   Path: event:/Button
   guid: 9bb426d5b5a9df4faf6e18625dcb3377
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -237,7 +221,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 983
---- !u!114 &-7832009662893040023
+--- !u!114 &-7415666469586563727
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -249,33 +233,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Material
-  Min: 0
-  Max: 4
+  Name: Tilt
+  Min: -10
+  Max: 10
   Default: 0
---- !u!114 &-7444648484396905996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Material/Chair
-  guid: 6fe6b4eccbe02c449e098a5d0fbc4ec9
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1250
 --- !u!114 &-7337966102037173263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,7 +269,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
---- !u!114 &-6901618181922287946
+--- !u!114 &-7237324597146410948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -317,21 +278,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/Players/Thin Putdown
-  guid: 0aa76a22fbfd984d829f996a3e864d87
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 3690518303947295155}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 5000
+  Name: Level
+  Min: 0
+  Max: 7
+  Default: 0
 --- !u!114 &-6878203836788348926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,6 +349,22 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+--- !u!114 &-6084824435310387922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: openclose
+  Min: 0
+  Max: 2
+  Default: 0
 --- !u!114 &-5983731398600253258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,7 +380,7 @@ MonoBehaviour:
   Path: event:/Demolition
   guid: a2c3c83176685747a8bedb87c251b275
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -434,7 +403,7 @@ MonoBehaviour:
   Path: 'event:/Atmos '
   guid: 3620d20d7bd9514182faa55f3b31143d
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -473,16 +442,16 @@ MonoBehaviour:
   Path: event:/Players/Fat footsteps
   guid: 5fdc60127597874395fe6818a5992edb
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 4598693149218378669}
+  - {fileID: 7922691251052490787}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-5717007409557484266
+--- !u!114 &-5607284483410513204
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -491,20 +460,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/Sparking
-  guid: d4a744dd003b4147b67e12521f1a26f6
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1500
+  Name: Surface
+  Min: 0
+  Max: 2
+  Default: 0
 --- !u!114 &-5549029197130460179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,12 +482,12 @@ MonoBehaviour:
   Path: event:/Players/Thin Putdown
   guid: 0aa76a22fbfd984d829f996a3e864d87
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 3353449621994873704}
+  - {fileID: -2985189178852221597}
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
@@ -593,6 +555,22 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+--- !u!114 &-4599672984432388827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 2
+  Default: 0
 --- !u!114 &-4557566028816541748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +618,7 @@ MonoBehaviour:
   Path: event:/Players/Thin lifting
   guid: 841e89d63a3e454db24b3cc2ea5cf14d
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -664,7 +642,7 @@ MonoBehaviour:
   Min: -10
   Max: 10
   Default: 0
---- !u!114 &-4068111814771365019
+--- !u!114 &-3879287776996111654
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -673,20 +651,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: 'event:/Atmos '
-  guid: 3620d20d7bd9514182faa55f3b31143d
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 13000
+  Name: Level
+  Min: 0
+  Max: 7
+  Default: 0
 --- !u!114 &-3848309227468599753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,53 +718,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: "D:\\Skyscrepair\\Skyscrepair\uF028\\Build\\Desktop\\Master Bank.strings.bank"
-  lastModified: 637162467537995481
+  Path: Assets\StreamingAssets\Master Bank.strings.bank
+  lastModified: 637162500642592743
   LoadResult: 0
   FileSizes:
-  - Name: Desktop
+  - Name: 
     Value: 1422
   Exists: 1
---- !u!114 &-3493334503047562180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Players/Player Pick up
-  guid: 651c1d8b0ece6c439ec6313a0ee913c6
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 1921700516442864693}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 500
---- !u!114 &-3412156920745527590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Tilt
-  Min: -10
-  Max: 10
-  Default: 0
 --- !u!114 &-3410529019426735623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,7 +741,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
---- !u!114 &-3021205095320527362
+--- !u!114 &-3253165579977590846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -825,6 +756,22 @@ MonoBehaviour:
   Name: openclose
   Min: 0
   Max: 2
+  Default: 0
+--- !u!114 &-2985189178852221597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
   Default: 0
 --- !u!114 &-2939840706554156644
 MonoBehaviour:
@@ -920,7 +867,7 @@ MonoBehaviour:
   Path: event:/Material/Chair
   guid: 6fe6b4eccbe02c449e098a5d0fbc4ec9
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -943,7 +890,7 @@ MonoBehaviour:
   Path: event:/Material/Metal
   guid: 1942256f2bbb784e8f37248172e2680e
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1070,6 +1017,38 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
+--- !u!114 &-1002043013631846832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 2
+  Default: 0
+--- !u!114 &-909151421984348243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Tilt
+  Min: -10
+  Max: 10
+  Default: 0
 --- !u!114 &-777578680830112312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1109,6 +1088,22 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+--- !u!114 &-752897438717179065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
 --- !u!114 &-578602542950913602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1141,7 +1136,7 @@ MonoBehaviour:
   Min: 0
   Max: 7
   Default: 0
---- !u!114 &-384465370620671218
+--- !u!114 &-414536882018300208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1150,16 +1145,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: "D:\\Skyscrepair\\Skyscrepair\\Skyscrepair\uF028\\Build\\Desktop\\Master Bank.bank"
-  lastModified: 637162479789810805
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 3347168
-  Exists: 1
+  Name: Tilt
+  Min: -10
+  Max: 10
+  Default: 0
 --- !u!114 &-380690356204487978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1235,30 +1227,46 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 469031501837379236}
-  - {fileID: -384465370620671218}
+  - {fileID: -3691617400522713204}
+  - {fileID: 3604938648948341135}
   EditorEvents:
-  - {fileID: -6901618181922287946}
-  - {fileID: 7075559710144096642}
-  - {fileID: -4068111814771365019}
-  - {fileID: 3684077123620913199}
-  - {fileID: 1252719846931239796}
-  - {fileID: 1517559525610305604}
-  - {fileID: -3493334503047562180}
-  - {fileID: -7444648484396905996}
-  - {fileID: 2612306116138917856}
-  - {fileID: 1102521183221660716}
-  - {fileID: 1179341233235784606}
-  - {fileID: 1620394239526764469}
-  - {fileID: 4047190748347029251}
-  - {fileID: 4026496748273895852}
-  - {fileID: 1501670036121111017}
-  - {fileID: -5717007409557484266}
-  - {fileID: 6218364630989156125}
-  MasterBankRef: {fileID: -384465370620671218}
-  StringsBankRef: {fileID: 469031501837379236}
-  stringsBankWriteTime: 637162479789860948
+  - {fileID: -5549029197130460179}
+  - {fileID: -2115487443257461228}
+  - {fileID: -5953367761005953302}
+  - {fileID: 2803575459662169272}
+  - {fileID: 634006865368047367}
+  - {fileID: -5934415293686424390}
+  - {fileID: -9128219319743372620}
+  - {fileID: -2338043406759138312}
+  - {fileID: -4318743056636824745}
+  - {fileID: 4227158933434262257}
+  - {fileID: -7942844746498954465}
+  - {fileID: -5983731398600253258}
+  - {fileID: 2345602646223812241}
+  - {fileID: 9190767512474184516}
+  - {fileID: 1550099296236492125}
+  - {fileID: 7551433962844685925}
+  - {fileID: 2800095534213819100}
+  MasterBankRef: {fileID: 3604938648948341135}
+  StringsBankRef: {fileID: -3691617400522713204}
+  stringsBankWriteTime: 637162500642592743
   cacheVersion: 2
+--- !u!114 &14503012105279189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
 --- !u!114 &95395103924159718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1342,22 +1350,6 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
---- !u!114 &533843888643699037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Material
-  Min: 0
-  Max: 4
-  Default: 0
 --- !u!114 &634006865368047367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1373,13 +1365,13 @@ MonoBehaviour:
   Path: event:/Music
   guid: 5c8d21997e699d499ce134e30cafb23a
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 3355211431567290968}
-  - {fileID: 2384410756690075272}
+  - {fileID: -3879287776996111654}
+  - {fileID: -7415666469586563727}
   MinDistance: 0
   MaxDistance: 0
   Length: 18701
@@ -1640,6 +1632,22 @@ MonoBehaviour:
   - Name: Desktop
     Value: 3347168
   Exists: 1
+--- !u!114 &1539814520892686751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 2
+  Default: 0
 --- !u!114 &1550099296236492125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1655,35 +1663,12 @@ MonoBehaviour:
   Path: event:/Players/Fat Putdown
   guid: cf1d51958224ec42b17736f4be22f4a5
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 6481666450014256450}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 5000
---- !u!114 &1620394239526764469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Demolition
-  guid: a2c3c83176685747a8bedb87c251b275
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  - {fileID: 4967477250682648571}
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
@@ -1702,6 +1687,22 @@ MonoBehaviour:
   Name: Surface
   Min: 0
   Max: 2
+  Default: 0
+--- !u!114 &1715624529720120863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
   Default: 0
 --- !u!114 &1730804416823489185
 MonoBehaviour:
@@ -1838,12 +1839,12 @@ MonoBehaviour:
   Path: event:/Lift
   guid: b10c7b32b753794ba0330ac566a02b75
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 5054697026557507368}
+  - {fileID: -6084824435310387922}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -1935,45 +1936,6 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
---- !u!114 &2587841807933469278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: openclose
-  Min: 0
-  Max: 2
-  Default: 0
---- !u!114 &2612306116138917856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Players/Thin lifting
-  guid: 841e89d63a3e454db24b3cc2ea5cf14d
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 5000
 --- !u!114 &2800095534213819100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1989,7 +1951,7 @@ MonoBehaviour:
   Path: event:/Players/Fat lifting
   guid: d7fa2f41431441429b878454e9413360
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2012,7 +1974,7 @@ MonoBehaviour:
   Path: event:/Material/Brick
   guid: 402acd14aee726439b174b1dcea8ade8
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2020,6 +1982,54 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
+--- !u!114 &2867725769535180211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
+--- !u!114 &3210657122883319168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
+--- !u!114 &3296522925736858574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: openclose
+  Min: 0
+  Max: 2
+  Default: 0
 --- !u!114 &3353449621994873704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2068,7 +2078,7 @@ MonoBehaviour:
   Min: 0
   Max: 7
   Default: 0
---- !u!114 &3594665232237819078
+--- !u!114 &3604938648948341135
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2077,37 +2087,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Surface
-  Min: 0
-  Max: 2
-  Default: 0
---- !u!114 &3684077123620913199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Material/Brick
-  guid: 402acd14aee726439b174b1dcea8ade8
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 5000
---- !u!114 &3690518303947295155
+  Path: D:\Skyscrepair\Skyscrepair\Assets\StreamingAssets\Master Bank.bank
+  lastModified: 637162500642542856
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 3347264
+  Exists: 1
+--- !u!114 &3646383384949732961
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2139,7 +2129,7 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
---- !u!114 &4026496748273895852
+--- !u!114 &4031723393051112819
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2148,45 +2138,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/Players/Thin footsteps
-  guid: b4ed42b4b8a7a14a98406516c584a658
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 7514750697526067164}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &4047190748347029251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Lift
-  guid: b10c7b32b753794ba0330ac566a02b75
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 2587841807933469278}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
 --- !u!114 &4061753958020906788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2245,7 +2203,7 @@ MonoBehaviour:
   Path: event:/Material/Wood
   guid: 86832b300d99784b939a164faeb463f3
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2341,6 +2299,22 @@ MonoBehaviour:
   Min: 0
   Max: 5
   Default: 0
+--- !u!114 &4967477250682648571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
 --- !u!114 &5054697026557507368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2376,6 +2350,22 @@ MonoBehaviour:
   - Name: Desktop
     Value: 3347168
   Exists: 1
+--- !u!114 &5430697281001108817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 2
+  Default: 0
 --- !u!114 &5553050522676160654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2499,29 +2489,6 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
---- !u!114 &6218364630989156125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Players/Fat lifting
-  guid: d7fa2f41431441429b878454e9413360
-  Banks:
-  - {fileID: -384465370620671218}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 5000
 --- !u!114 &6304517294199971735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2696,22 +2663,6 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
---- !u!114 &7514750697526067164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Surface
-  Min: 0
-  Max: 2
-  Default: 0
 --- !u!114 &7551433962844685925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2727,7 +2678,7 @@ MonoBehaviour:
   Path: event:/Sparking
   guid: d4a744dd003b4147b67e12521f1a26f6
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2789,6 +2740,22 @@ MonoBehaviour:
   Name: Material
   Min: 0
   Max: 4
+  Default: 0
+--- !u!114 &7922691251052490787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 2
   Default: 0
 --- !u!114 &8449893606768917941
 MonoBehaviour:
@@ -2878,12 +2845,12 @@ MonoBehaviour:
   Path: event:/Players/Thin footsteps
   guid: b4ed42b4b8a7a14a98406516c584a658
   Banks:
-  - {fileID: 5400273370251052404}
+  - {fileID: 3604938648948341135}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 6304517294199971735}
+  - {fileID: -4599672984432388827}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
