@@ -920,6 +920,11 @@ PrefabInstance:
       propertyPath: elevatorExit
       value: 
       objectReference: {fileID: 1600966850}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: elevatorObj
+      value: 
+      objectReference: {fileID: 1127283660}
     - target: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1240,6 +1245,11 @@ PrefabInstance:
       propertyPath: elevatorExit
       value: 
       objectReference: {fileID: 1750684241}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: elevatorObj
+      value: 
+      objectReference: {fileID: 1127283660}
     - target: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1609,6 +1619,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1127283660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7459824555987816824, guid: 9f4d05dd6a9eb5540aade24841dde29f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1482452907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1229315900
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,6 +2275,11 @@ PrefabInstance:
       propertyPath: elevatorExit
       value: 
       objectReference: {fileID: 1704861690}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: elevatorObj
+      value: 
+      objectReference: {fileID: 1127283660}
     - target: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2684,6 +2705,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3436353800991129899, guid: 9f4d05dd6a9eb5540aade24841dde29f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f4d05dd6a9eb5540aade24841dde29f, type: 3}
 --- !u!1 &1506134081
@@ -2996,6 +3022,11 @@ PrefabInstance:
       propertyPath: itemsToBeRepaired.Array.data[2]
       value: 
       objectReference: {fileID: 1965305781}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: elevatorObj
+      value: 
+      objectReference: {fileID: 1127283660}
     - target: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3275,6 +3306,11 @@ PrefabInstance:
       propertyPath: elevatorExit
       value: 
       objectReference: {fileID: 1229315901}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: elevatorObj
+      value: 
+      objectReference: {fileID: 1127283660}
     - target: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3499,6 +3535,11 @@ PrefabInstance:
       propertyPath: itemsToBeRepaired.Array.data[2]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 9095543181095069749, guid: aa51eb8eb414ebf4393b676cbaa277e9,
+        type: 3}
+      propertyPath: elevatorObj
+      value: 
+      objectReference: {fileID: 1127283660}
     - target: {fileID: 9095543181095069748, guid: aa51eb8eb414ebf4393b676cbaa277e9,
         type: 3}
       propertyPath: m_LocalPosition.x
