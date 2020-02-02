@@ -5,6 +5,10 @@ using UnityEngine.InputSystem;
 
 public class ItemPickUp : MonoBehaviour
 {
+    public int playerNumber;
+    GameObject otherPlayer;
+    GameObject[] players;
+    
     public Animator animator;
     private ItemEffects effects;
     //point at which to hold the item
@@ -15,6 +19,7 @@ public class ItemPickUp : MonoBehaviour
     public float maxDist = 1f;
 
     //what if anything, is the player holding
+    private bool pickingUpItem = false;
     private bool holdingItem = false;
     private GameObject heldItem;
     
@@ -47,10 +52,10 @@ public class ItemPickUp : MonoBehaviour
 
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.E))
-        //{
-        //    ItemButtonAction();
-        //}
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+           ItemButtonAction();
+        }
 
         if (Mathf.Abs(Input.GetAxis("Horizontal"))>0.1f)
         {
@@ -90,13 +95,15 @@ public class ItemPickUp : MonoBehaviour
         Vector3 startPosition = arm.transform.localEulerAngles;
         while(arm.transform.localEulerAngles != targetArmPosition)
         {
-            Debug.Log(Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed));
+            //Debug.Log(Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed));
             arm.transform.localEulerAngles = Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed);
-            if(arm.transform.localEulerAngles.z < armDroppingPosition.z)
+            yield return new WaitForEndOfFrame();
+            //putting this after the waitforend of frame should hopefully stop as many items getting stuck
+            if (arm.transform.localEulerAngles.z < armDroppingPosition.z)
             {
+                //doesnt matter if this is in the moving arm upwards part because its an irrelevant bool in this case
                 droppingItem = false;
             }
-            yield return new WaitForEndOfFrame();
         }
         animator.SetFloat("dropping", 1f);
     }
@@ -105,6 +112,9 @@ public class ItemPickUp : MonoBehaviour
     {
         GameObject closestItem = null;
         float minDist = Mathf.Infinity;
+
+        GameObject closestToOtherPlayer = null;
+        float minDistOtherPlayer = Mathf.Infinity;
 
         foreach(var obj in GameObject.FindGameObjectsWithTag("item"))
         {
@@ -118,10 +128,21 @@ public class ItemPickUp : MonoBehaviour
                     closestItem = obj;
                 }
             }
+
+            //if (otherPlayer != null)
+            //{
+            //    var distance2 = Vector2.Distance(obj.transform.position, otherPlayer.transform.position);
+            //    if(distance2 < minDistOtherPlayer && distance2 < maxDist)
+            //    {
+            //        closestToOtherPlayer = obj;
+            //        minDistOtherPlayer = distance2;
+            //    }
+            //}
         }
         //if there was an item in range pick up the closest one, otherwise do nothing
         if (closestItem != null)
         {
+            //if(!(closestItem==closestToOtherPlayer && minDist > minDistOtherPlayer && otherPlayer.GetComponent<ItemPickUp>().)
             StartCoroutine(PickUpOverTime(closestItem));
             
         }
@@ -130,6 +151,7 @@ public class ItemPickUp : MonoBehaviour
     IEnumerator PickUpOverTime(GameObject item)
     {
         animator.SetBool("holding", true);
+        pickingUpItem = true;
         yield return new WaitForSeconds(.5f);
         PickUpItem(item);
     }
@@ -158,7 +180,7 @@ public class ItemPickUp : MonoBehaviour
         }
         armMovement = StartCoroutine(LerpArm());
 
-
+        pickingUpItem = false;
         
     }
 
@@ -166,9 +188,10 @@ public class ItemPickUp : MonoBehaviour
     {
         if (!droppingItem)
         {
+            animator.SetBool("holding", false);
             StartCoroutine(DropItemTransition());
         }
-        animator.SetBool("holding", false);
+        
     }
 
     IEnumerator DropItemTransition()
@@ -198,8 +221,6 @@ public class ItemPickUp : MonoBehaviour
        
         heldItem.gameObject.tag = "item";
 
-        
-
         holdingItem = false;
         heldItem = null;
 
@@ -212,7 +233,7 @@ public class ItemPickUp : MonoBehaviour
         {
             Drop();
         }
-        else
+        else if(!pickingUpItem)
         {
             PickUp();
         }
