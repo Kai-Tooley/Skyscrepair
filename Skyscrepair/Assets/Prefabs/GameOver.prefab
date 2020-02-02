@@ -200,7 +200,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 373314342183963972}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4090472346425665721}
+        m_MethodName: OpenLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &373314342432222532
@@ -215,8 +226,9 @@ GameObject:
   - component: {fileID: 373314342432222529}
   - component: {fileID: 373314342432222534}
   - component: {fileID: 373314342432222535}
+  - component: {fileID: 4090472346425665721}
   m_Layer: 5
-  m_Name: Canvas 1
+  m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -304,6 +316,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &4090472346425665721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373314342432222532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfbc6c80f7550c84ca0e2f34ea53c3ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &373314342854320183
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +340,6 @@ GameObject:
   - component: {fileID: 373314342854320179}
   - component: {fileID: 373314342854320176}
   - component: {fileID: 373314342854320177}
-  - component: {fileID: 373314342854320178}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -425,8 +448,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 373314342854320178}
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 4090472346425665721}
+        m_MethodName: OpenLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -438,18 +461,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &373314342854320178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373314342854320183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cd229d90f588c646a728ccb4d29eb0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &373314343547195086
 GameObject:
   m_ObjectHideFlags: 0

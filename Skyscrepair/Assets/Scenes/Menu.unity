@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 1425527058}
   m_Layer: 0
   m_Name: Manager
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -232,6 +232,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e2415eaed7a64443bebc3a0481b6050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  atmosphearEvent: 'event:/Atmos '
+  musicEvent: event:/Music
+  level: 0
 --- !u!4 &1425527059
 Transform:
   m_ObjectHideFlags: 0

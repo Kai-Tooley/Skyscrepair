@@ -21,11 +21,12 @@ public class Elevator : MonoBehaviour
     Light elevatorLight;
     GameObject cameraMain;
 
+    Manager manager;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<Manager>();
     }
 
     private void Awake()
@@ -70,6 +71,8 @@ public class Elevator : MonoBehaviour
             {
                 item.transform.position = elevatorExit.position;
             }
+
+            manager.level += 1;
 
             elevatorObj.transform.Translate(Vector3.up * 8);
             //cameraMain.transform.Translate(Vector3.up * camStep);
