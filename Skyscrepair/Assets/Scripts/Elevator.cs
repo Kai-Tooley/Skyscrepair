@@ -15,7 +15,7 @@ public class Elevator : MonoBehaviour
 
     public List<bool> areItemsRepaired;
 
-    public float camStep = 7f;
+    private float camStep = 2f;
 
     public GameObject elevatorObj;
 
@@ -94,7 +94,7 @@ public class Elevator : MonoBehaviour
             manager.level += 1;
 
             elevatorObj.transform.Translate(Vector3.up * 8);
-            //cameraMain.transform.Translate(Vector3.up * camStep);
+            cameraMain.transform.Translate(Vector3.up * camStep);
         }
     }
 }

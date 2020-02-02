@@ -60,10 +60,23 @@ public class CameraScroll : MonoBehaviour
         cam.transform.position += Random.insideUnitSphere * Time.deltaTime * amount;
     }
     void MoveCamera()
-    {   
+    {
         //slowly move the camera upwards 
-        cam.transform.position += Vector3.up * moveSpeed * Time.deltaTime;
+        if (cam.transform.position.y < 51)
+        {
+            cam.transform.position += Vector3.up * moveSpeed * Time.deltaTime;
+        }
+        else
+        {
+            StartCoroutine(Win());
+        }
         screenBottomY = cam.transform.position.y - camHeight;
+    }
+
+    IEnumerator Win()
+    {
+        yield return new WaitForSeconds(5);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 
     void CheckPlayer()

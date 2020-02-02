@@ -33,9 +33,9 @@ public class ItemPickUp : MonoBehaviour
     public float maxDist = 1f;
 
     //what if anything, is the player holding
-    private bool pickingUpItem = false;
-    private bool holdingItem = false;
-    private GameObject heldItem;
+    public bool pickingUpItem = false;
+    public bool holdingItem = false;
+    public GameObject heldItem;
     
     //current position vs target position
     private Vector3 armPosition = new Vector3(0, 0, 0);
@@ -46,7 +46,7 @@ public class ItemPickUp : MonoBehaviour
     private Vector3 armHoldingPosition = new Vector3(0, 0, 90);
     private Vector3 armDroppingPosition = new Vector3(0, 0, 40);
     public float armSpeed;
-    private bool droppingItem = false;
+    public bool droppingItem = false;
 
     //debugging variable
     //public float nearest;
@@ -118,6 +118,7 @@ public class ItemPickUp : MonoBehaviour
         Vector3 startPosition = arm.transform.localEulerAngles;
         while(arm.transform.localEulerAngles != targetArmPosition)
         {
+            Debug.Log("I'm trying to move my arm to the desired position... I am player: " + gameObject.name);
             //Debug.Log(Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed));
             arm.transform.localEulerAngles = Vector3.Lerp(startPosition, targetArmPosition, (Time.time - startTime) * armSpeed);
             yield return new WaitForEndOfFrame();
@@ -128,6 +129,7 @@ public class ItemPickUp : MonoBehaviour
                 droppingItem = false;
             }
         }
+        droppingItem = false;
         animator.SetFloat("dropping", 1f);
     }
 
@@ -192,8 +194,15 @@ public class ItemPickUp : MonoBehaviour
             item.transform.position = holdingPoint.transform.position;
         }
         //attach item to the holding point and disable the rigidbody
-        item.transform.SetParent(holdingPoint.transform);
-        item.GetComponent<Rigidbody2D>().simulated = false;
+        try
+        {
+            item.transform.SetParent(holdingPoint.transform);
+            item.GetComponent<Rigidbody2D>().simulated = false;
+        }
+        catch
+        {
+            //innapropriate bug fixes for the win :) 
+        }
         //effects.ChangeColor(item.gameObject, new Color(0, 250, 250), 1);
 
         //move the arm
@@ -226,10 +235,17 @@ public class ItemPickUp : MonoBehaviour
 
         //play Audio player drog grunt & droped object clatter
         FMODUnity.RuntimeManager.PlayOneShot(playerDropEvent);
-        itemPickUp = FMODUnity.RuntimeManager.CreateInstance(itemPickUpEvent);
-        itemPickUp.setParameterValue("Material", (float)heldItem.GetComponent<objectRepair>().material);
-        itemPickUp.start();
-        itemPickUp.release();
+        try
+        {
+            itemPickUp = FMODUnity.RuntimeManager.CreateInstance(itemPickUpEvent);
+            itemPickUp.setParameterValue("Material", (float)heldItem.GetComponent<objectRepair>().material);
+            itemPickUp.start();
+            itemPickUp.release();
+        }
+        catch
+        {
+            //booooooooooooooo
+        }
 
         //start arm movement
         targetArmPosition = armDefaultPosition;
@@ -246,9 +262,16 @@ public class ItemPickUp : MonoBehaviour
         }
         //drop whichever item is currently being held;
         heldItem.transform.SetParent(null);
-        Rigidbody2D itemRB = heldItem.GetComponent<Rigidbody2D>();
-        itemRB.simulated = true;
-        itemRB.velocity = new Vector3(player.transform.eulerAngles.y==180?-5:5, -20); 
+        try
+        {
+            Rigidbody2D itemRB = heldItem.GetComponent<Rigidbody2D>();
+            itemRB.simulated = true;
+            itemRB.velocity = new Vector3(player.transform.eulerAngles.y == 180 ? -5 : 5, -20);
+        }
+        catch
+        {
+            Debug.Log("I somehow lost the rigidbody? rip? " + heldItem.name);
+        }
        
         heldItem.gameObject.tag = "item";
 

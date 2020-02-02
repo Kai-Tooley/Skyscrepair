@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: "D:\\Skyscrepair\\Skyscrepair\uF028\\._Skyscrepair .fspro"
-  SourceProjectPathUnformatted: "D:\\Skyscrepair\\Skyscrepair\uF028\\._Skyscrepair
+  sourceProjectPath: "D:\\Skyscrepair\\Skyscrepair\\Skyscrepair\uF028\\Skyscrepair
     .fspro"
-  SourceBankPathUnformatted: "D:\\Skyscrepair\\Skyscrepair\uF028\\Build"
+  SourceProjectPathUnformatted: "D:\\Skyscrepair\\Skyscrepair\\Skyscrepair\uF028\\Skyscrepair
+    .fspro"
+  SourceBankPathUnformatted: "D:\\Skyscrepair\\Skyscrepair\\Skyscrepair\uF028\\Build"
   AutomaticEventLoading: 1
   AutomaticSampleLoading: 0
   ImportType: 0

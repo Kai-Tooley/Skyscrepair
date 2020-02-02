@@ -42,7 +42,7 @@ public class TowerTilt : MonoBehaviour
         {
             weightedAverage += xPositions[i] * weights[i]/totalWeight;
         }
-        Debug.Log(weightedAverage);
+
         float tiltAngle = -weightedAverage;
         var targetPostiion = transform.eulerAngles;
         targetPostiion.z = tiltAngle;
