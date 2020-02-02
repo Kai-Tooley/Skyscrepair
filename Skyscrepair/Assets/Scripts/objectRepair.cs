@@ -51,7 +51,7 @@ public class objectRepair : MonoBehaviour
 
     public void FixParts(GameObject part)
     {
-        ///FMODUnity.RuntimeManager.PlayOneShot(materialRepairEvent);
+        FMODUnity.RuntimeManager.PlayOneShot(materialRepairEvent);
 
         //play any audio for fixing items
         GameObject parent;
