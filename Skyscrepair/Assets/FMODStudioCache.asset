@@ -87,6 +87,22 @@ MonoBehaviour:
   Min: -10
   Max: 10
   Default: 0
+--- !u!114 &-3744914711522544145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Tilt
+  Min: -10
+  Max: 10
+  Default: 0
 --- !u!114 &-2673396562084895259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,6 +126,38 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1250
+--- !u!114 &-2005091721031348082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 2
+  Default: 0
+--- !u!114 &-1923050713837435290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 5
+  Default: 0
 --- !u!114 &-1670779702540869461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +204,22 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
+--- !u!114 &-553206403651374875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 7
+  Default: 0
 --- !u!114 &-380690356204487978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,7 +299,7 @@ MonoBehaviour:
   - {fileID: -1670779702540869461}
   MasterBankRef: {fileID: 5760744348003467435}
   StringsBankRef: {fileID: 4061753958020906788}
-  stringsBankWriteTime: 637161889340881003
+  stringsBankWriteTime: 637161952856142567
   cacheVersion: 2
 --- !u!114 &969593885377570760
 MonoBehaviour:
@@ -280,7 +344,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 8449893606768917941}
+  - {fileID: 5553050522676160654}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -304,7 +368,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -9047020236003516771}
+  - {fileID: -2005091721031348082}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -321,7 +385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: D:\Skyscrepair\SkyscrepairAudio\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637161889340881003
+  lastModified: 637161952856142567
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -405,6 +469,22 @@ MonoBehaviour:
   Min: 0
   Max: 5
   Default: 0
+--- !u!114 &5553050522676160654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 2
+  Default: 0
 --- !u!114 &5760744348003467435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,7 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: D:\Skyscrepair\SkyscrepairAudio\Build\Desktop\Master Bank.bank
-  lastModified: 637161889340782909
+  lastModified: 637161952856102671
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -460,7 +540,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -7337966102037173263}
+  - {fileID: -1923050713837435290}
   MinDistance: 0
   MaxDistance: 0
   Length: 500
@@ -578,8 +658,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5775520675566398928}
-  - {fileID: 7168079263162094007}
+  - {fileID: -553206403651374875}
+  - {fileID: -3744914711522544145}
   MinDistance: 0
   MaxDistance: 0
   Length: 18701
