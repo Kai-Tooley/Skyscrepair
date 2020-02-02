@@ -35,7 +35,7 @@
                     "id": "aa5ffbd9-0c7a-4910-a5fa-adc5d227c418",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Hold"
                 }
             ],
             "bindings": [

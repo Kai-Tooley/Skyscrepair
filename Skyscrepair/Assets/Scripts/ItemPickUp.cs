@@ -64,10 +64,11 @@ public class ItemPickUp : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            ItemButtonAction();
-        }
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    ItemButtonAction();
+        //}
+
         if (Mathf.Abs(Input.GetAxis("Horizontal"))>0.1f)
         {
             animator.SetBool("walking", true);

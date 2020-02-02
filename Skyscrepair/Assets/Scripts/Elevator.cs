@@ -16,8 +16,11 @@ public class Elevator : MonoBehaviour
 
     public float camStep = 7f;
 
+    public GameObject elevatorObj;
+
     Light elevatorLight;
     GameObject cameraMain;
+
 
     // Start is called before the first frame update
     void Start()
@@ -68,6 +71,7 @@ public class Elevator : MonoBehaviour
                 item.transform.position = elevatorExit.position;
             }
 
+            elevatorObj.transform.Translate(Vector3.up * 8);
             //cameraMain.transform.Translate(Vector3.up * camStep);
         }
     }
