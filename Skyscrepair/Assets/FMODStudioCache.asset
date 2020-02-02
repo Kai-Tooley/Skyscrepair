@@ -15,12 +15,12 @@ MonoBehaviour:
   Path: event:/Players/Player Pick up
   guid: 651c1d8b0ece6c439ec6313a0ee913c6
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 2867725769535180211}
+  - {fileID: 6939982909849123978}
   MinDistance: 0
   MaxDistance: 0
   Length: 500
@@ -159,6 +159,22 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
+--- !u!114 &-8430752792824105305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
 --- !u!114 &-8098637584841917818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,7 +229,7 @@ MonoBehaviour:
   Path: event:/Button
   guid: 9bb426d5b5a9df4faf6e18625dcb3377
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -349,6 +365,22 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+--- !u!114 &-6129896726222749438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 2
+  Default: 0
 --- !u!114 &-6084824435310387922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,7 +412,7 @@ MonoBehaviour:
   Path: event:/Demolition
   guid: a2c3c83176685747a8bedb87c251b275
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -403,7 +435,7 @@ MonoBehaviour:
   Path: 'event:/Atmos '
   guid: 3620d20d7bd9514182faa55f3b31143d
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -442,12 +474,12 @@ MonoBehaviour:
   Path: event:/Players/Fat footsteps
   guid: 5fdc60127597874395fe6818a5992edb
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 7922691251052490787}
+  - {fileID: -6129896726222749438}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -482,12 +514,12 @@ MonoBehaviour:
   Path: event:/Players/Thin Putdown
   guid: 0aa76a22fbfd984d829f996a3e864d87
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -2985189178852221597}
+  - {fileID: -8430752792824105305}
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
@@ -524,6 +556,22 @@ MonoBehaviour:
   Max: 7
   Default: 0
 --- !u!114 &-5251993401991638125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 2
+  Default: 0
+--- !u!114 &-5073822161023234451
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -618,7 +666,7 @@ MonoBehaviour:
   Path: event:/Players/Thin lifting
   guid: 841e89d63a3e454db24b3cc2ea5cf14d
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -719,7 +767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Assets\StreamingAssets\Master Bank.strings.bank
-  lastModified: 637162500642592743
+  lastModified: 637162479789860948
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -867,7 +915,7 @@ MonoBehaviour:
   Path: event:/Material/Chair
   guid: 6fe6b4eccbe02c449e098a5d0fbc4ec9
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -890,7 +938,7 @@ MonoBehaviour:
   Path: event:/Material/Metal
   guid: 1942256f2bbb784e8f37248172e2680e
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1001,6 +1049,22 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
+--- !u!114 &-1537556198326812388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Tilt
+  Min: -10
+  Max: 10
+  Default: 0
 --- !u!114 &-1419618329489623545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1228,7 +1292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -3691617400522713204}
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   EditorEvents:
   - {fileID: -5549029197130460179}
   - {fileID: -2115487443257461228}
@@ -1247,9 +1311,9 @@ MonoBehaviour:
   - {fileID: 1550099296236492125}
   - {fileID: 7551433962844685925}
   - {fileID: 2800095534213819100}
-  MasterBankRef: {fileID: 3604938648948341135}
+  MasterBankRef: {fileID: 8392268486349688612}
   StringsBankRef: {fileID: -3691617400522713204}
-  stringsBankWriteTime: 637162500642592743
+  stringsBankWriteTime: 637162479789860948
   cacheVersion: 2
 --- !u!114 &14503012105279189
 MonoBehaviour:
@@ -1365,13 +1429,13 @@ MonoBehaviour:
   Path: event:/Music
   guid: 5c8d21997e699d499ce134e30cafb23a
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3879287776996111654}
-  - {fileID: -7415666469586563727}
+  - {fileID: 6807078651234751283}
+  - {fileID: -1537556198326812388}
   MinDistance: 0
   MaxDistance: 0
   Length: 18701
@@ -1461,7 +1525,7 @@ MonoBehaviour:
   Path: event:/Material/Wood
   guid: 86832b300d99784b939a164faeb463f3
   Banks:
-  - {fileID: -384465370620671218}
+  - {fileID: 0}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1484,7 +1548,7 @@ MonoBehaviour:
   Path: event:/Button
   guid: 9bb426d5b5a9df4faf6e18625dcb3377
   Banks:
-  - {fileID: -384465370620671218}
+  - {fileID: 0}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1507,13 +1571,13 @@ MonoBehaviour:
   Path: event:/Music
   guid: 5c8d21997e699d499ce134e30cafb23a
   Banks:
-  - {fileID: -384465370620671218}
+  - {fileID: 0}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -9208157832242181500}
-  - {fileID: -8638173726392700225}
+  - {fileID: 0}
+  - {fileID: 0}
   MinDistance: 0
   MaxDistance: 0
   Length: 18701
@@ -1580,12 +1644,12 @@ MonoBehaviour:
   Path: event:/Players/Fat Putdown
   guid: cf1d51958224ec42b17736f4be22f4a5
   Banks:
-  - {fileID: -384465370620671218}
+  - {fileID: 0}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 533843888643699037}
+  - {fileID: 0}
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
@@ -1604,7 +1668,7 @@ MonoBehaviour:
   Path: event:/Players/Fat footsteps
   guid: 5fdc60127597874395fe6818a5992edb
   Banks:
-  - {fileID: -384465370620671218}
+  - {fileID: 0}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1663,12 +1727,12 @@ MonoBehaviour:
   Path: event:/Players/Fat Putdown
   guid: cf1d51958224ec42b17736f4be22f4a5
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 4967477250682648571}
+  - {fileID: 3150987095742967237}
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
@@ -1839,12 +1903,12 @@ MonoBehaviour:
   Path: event:/Lift
   guid: b10c7b32b753794ba0330ac566a02b75
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -6084824435310387922}
+  - {fileID: 6997260350723114849}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -1951,7 +2015,7 @@ MonoBehaviour:
   Path: event:/Players/Fat lifting
   guid: d7fa2f41431441429b878454e9413360
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1974,7 +2038,7 @@ MonoBehaviour:
   Path: event:/Material/Brick
   guid: 402acd14aee726439b174b1dcea8ade8
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1983,6 +2047,22 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 5000
 --- !u!114 &2867725769535180211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
+--- !u!114 &3150987095742967237
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2096,7 +2176,7 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 3347264
-  Exists: 1
+  Exists: 0
 --- !u!114 &3646383384949732961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,7 +2283,7 @@ MonoBehaviour:
   Path: event:/Material/Wood
   guid: 86832b300d99784b939a164faeb463f3
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2569,6 +2649,22 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
+--- !u!114 &6807078651234751283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 7
+  Default: 0
 --- !u!114 &6809325700238642520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2608,6 +2704,38 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
+--- !u!114 &6939982909849123978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
+--- !u!114 &6997260350723114849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: openclose
+  Min: 0
+  Max: 2
+  Default: 0
 --- !u!114 &7075559710144096642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2623,7 +2751,7 @@ MonoBehaviour:
   Path: event:/Material/Metal
   guid: 1942256f2bbb784e8f37248172e2680e
   Banks:
-  - {fileID: -384465370620671218}
+  - {fileID: 0}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2678,7 +2806,7 @@ MonoBehaviour:
   Path: event:/Sparking
   guid: d4a744dd003b4147b67e12521f1a26f6
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2757,6 +2885,25 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+--- !u!114 &8392268486349688612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: D:\Skyscrepair\Skyscrepair\Skyscrepair\Assets\StreamingAssets\Master Bank.bank
+  lastModified: 637162504390941683
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 3347264
+  Exists: 1
 --- !u!114 &8449893606768917941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2845,12 +2992,12 @@ MonoBehaviour:
   Path: event:/Players/Thin footsteps
   guid: b4ed42b4b8a7a14a98406516c584a658
   Banks:
-  - {fileID: 3604938648948341135}
+  - {fileID: 8392268486349688612}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -4599672984432388827}
+  - {fileID: -5073822161023234451}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
