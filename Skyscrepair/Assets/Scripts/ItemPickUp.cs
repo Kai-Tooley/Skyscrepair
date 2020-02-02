@@ -5,6 +5,20 @@ using UnityEngine.InputSystem;
 
 public class ItemPickUp : MonoBehaviour
 {
+    [FMODUnity.EventRef]
+    public string playerWalkEvent = "";
+    FMOD.Studio.EventInstance playerWalk;
+
+    [FMODUnity.EventRef]
+    public string playerLiftEvent = "";
+
+    [FMODUnity.EventRef]
+    public string playerDropEvent = "";
+
+    [FMODUnity.EventRef]
+    public string itemPickUpEvent = "";
+    FMOD.Studio.EventInstance itemPickUp;
+
     public Animator animator;
     private ItemEffects effects;
     //point at which to hold the item
@@ -37,6 +51,9 @@ public class ItemPickUp : MonoBehaviour
 
     void Start()
     {
+        playerWalk = FMODUnity.RuntimeManager.CreateInstance(playerWalkEvent);
+        itemPickUp = FMODUnity.RuntimeManager.CreateInstance(itemPickUpEvent);
+
         holdingItem = false;
         //effects = GameObject.Find("Effects").GetComponent<ItemEffects>();
         player = gameObject;
@@ -54,10 +71,13 @@ public class ItemPickUp : MonoBehaviour
         if (Mathf.Abs(Input.GetAxis("Horizontal"))>0.1f)
         {
             animator.SetBool("walking", true);
+            playerWalk.start();
+            playerWalk.setParameterValue("Surface", 0.5f);
         }
         else
         {
             animator.SetBool("walking", false);
+            playerWalk.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
 
         //just outputs distance to closest item if you want
@@ -69,6 +89,15 @@ public class ItemPickUp : MonoBehaviour
         //        nearest = Vector2.Distance(obj.transform.position, gameObject.transform.position);
         //    }
         //}
+    }
+
+    private void OnDestroy()
+    {
+        playerWalk.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        playerWalk.release();
+
+        itemPickUp.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        itemPickUp.release();
     }
 
     void ItemButtonAction()
@@ -129,6 +158,7 @@ public class ItemPickUp : MonoBehaviour
     IEnumerator PickUpOverTime(GameObject item)
     {
         animator.SetBool("holding", true);
+        FMODUnity.RuntimeManager.PlayOneShot(playerLiftEvent);
         yield return new WaitForSeconds(.5f);
         PickUpItem(item);
     }
@@ -175,6 +205,12 @@ public class ItemPickUp : MonoBehaviour
         //use this bool to stop the player trying to 'double drop'
         droppingItem = true;
         animator.SetFloat("dropping", -1f);
+
+        //play Audio player drog grunt & droped object clatter
+        FMODUnity.RuntimeManager.PlayOneShot(playerDropEvent);
+        itemPickUp.setParameterValue("Material", (float)heldItem.GetComponent<objectRepair>().material);
+        itemPickUp.start();
+        itemPickUp.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
 
         //start arm movement
         targetArmPosition = armDefaultPosition;

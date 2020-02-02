@@ -413,6 +413,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c8db0e60739347599faca8f4f29cc1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerWalkEvent: event:/Players/Thin footsteps
+  playerLiftEvent: event:/Players/Thin lifting
+  playerDropEvent: event:/Players/Thin Putdown
+  itemPickUpEvent: event:/Players/Player Pick up
   animator: {fileID: 151299904158529562}
   maxDist: 6
   armSpeed: 3
