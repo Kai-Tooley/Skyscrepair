@@ -510,8 +510,6 @@ MonoBehaviour:
 
     Josh Atkinson
 
-    KaiTooley
-
     Katie Gardner
 
     Lulu Stephens
@@ -561,7 +559,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 84
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -585,12 +583,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: -0.00007630173, z: 0, w: 0.00007652458}
   m_textInfo:
     textComponent: {fileID: 3832692631250032827}
-    characterCount: 23
+    characterCount: 100
     spriteCount: 0
-    spaceCount: 4
-    wordCount: 4
+    spaceCount: 14
+    wordCount: 15
     linkCount: 0
-    lineCount: 2
+    lineCount: 8
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
